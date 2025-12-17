@@ -1,268 +1,268 @@
 ## assetbrowser.yaml
-label-assetbrowser-panel-title = Asset Browser
-label-bg-source-selector-desc = Select asset source
-dropdownbutton-bg-source-selector = Folders
-dropdownbutton-bg-asset-types-dropdown = Asset types
-label-bg-filename-desc = Filter by name
-label-bg-sprite-scale = Scale:
-label-bg-palette-desc = Palette:
-label-sprite-bg-error = Error displaying file. See assetbrowser.log for details.
+label-assetbrowser-panel-title = 资源浏览器
+label-bg-source-selector-desc = 选择资源来源
+dropdownbutton-bg-source-selector = 文件夹
+dropdownbutton-bg-asset-types-dropdown = 资源类型
+label-bg-filename-desc = 按名称过滤
+label-bg-sprite-scale = 比例:
+label-bg-palette-desc = 调色板:
+label-sprite-bg-error = 显示文件时出错。详情请查看assetbrowser.log。
 
 ## color-picker.yaml
-button-color-chooser-random = Random
-button-color-chooser-store = Store
-button-color-chooser-mixer-tab = Mixer
-button-color-chooser-palette-tab = Palette
-label-preset-header = Preset Colors
-label-custom-header = Custom Colors
+button-color-chooser-random = 随机
+button-color-chooser-store = 存储
+button-color-chooser-mixer-tab = 混合器
+button-color-chooser-palette-tab = 调色板
+label-preset-header = 预设颜色
+label-custom-header = 自定义颜色
 
 ## connection.yaml
-label-connecting-panel-title = Connecting
-label-bg-connecting-desc = Connecting...
-button-connecting-panel-abort = Abort
-label-connection-background-connecting-desc = Failed to connect
-label-connection-background-password = Password:
-button-connectionfailed-panel-abort = Abort
-label-connection-switchmod-panel-title = Switch Mod
-label-connection-background-desc = This server is running a different mod:
-label-connection-background-desc2 = Switch mods and join server?
-button-connection-switchmod-panel-abort = Abort
-button-connection-switchmod-panel-switch = Switch
+label-connecting-panel-title = 连接中
+label-bg-connecting-desc = 连接中...
+button-connecting-panel-abort = 放弃
+label-connection-background-connecting-desc = 连接失败
+label-connection-background-password = 密码:
+button-connectionfailed-panel-abort = 放弃
+label-connection-switchmod-panel-title = 切换模组
+label-connection-background-desc = 此服务器正在运行不同的模组:
+label-connection-background-desc2 = 切换模组并加入服务器？
+button-connection-switchmod-panel-abort = 放弃
+button-connection-switchmod-panel-switch = 切换
 
 ## credits.yaml
 label-openra = OpenRA
 
 ## credits.yaml, mainmenu.yaml
-label-credits-title = Credits
+label-credits-title = 鸣谢
 
 ## dialogs.yaml
-button-prompt-confirm = Confirm
-button-prompt-other = Restart
-button-text-input-prompt-accept = OK
+button-prompt-confirm = 确认
+button-prompt-other = 重新启动
+button-text-input-prompt-accept = 确定
 
 ## editor.yaml
-label-new-map-bg-title = New Map
-label-bg-tileset = Environment:
-label-bg-width = Width:
-label-bg-height = Height:
-button-new-map-bg-create = Create
-label-save-map-panel-title = Save Map
-label-save-map-background-title = Title:
-label-save-map-background-author = Author:
-label-save-map-background-visibility = Visibility:
-dropdownbutton-save-map-background-visibility-dropdown = Map Visibility
-label-save-map-background-directory = Directory:
-label-save-map-background-filename = Filename:
-button-save-map-panel = Save
-label-actor-edit-panel-id = ID
-button-container-ok = OK
-button-editor-world-root-options-tooltip = Menu
-label-tiles-bg-search = Search:
-label-bg-filter = Filter:
-label-actors-bg-search = Search:
-label-actor-bg-owner = Owner:
-label-area-selection = Area Selection
-label-area-info = Area Info
-label-selected-area-diagonal = Diagonal:
-label-selected-area-resources = Resources:
-label-selection-filters = Filters
-label-filter-terrain = Terrain
-label-filter-resources = Resources
-label-filter-actors = Actors
-label-tool-bg-category = Tool:
-button-marker-tiles-clear-current = Clear Current
-button-marker-tiles-clear-all = Clear All
-label-marker-layer-num-sides = Number of Sides
-label-marker-alpha = Tile Alpha
-label-marker-mirror-mode = Mirror Mode
-label-marker-axis-angle = Axis Angle
-button-map-generator-generate = Generate
-button-map-generator-generate-random = Generate Random
-label-tiling-path-type-start = Start type
-label-tiling-path-type-inner = Inner type
-label-tiling-path-type-end = End type
-label-tiling-path-deviation = Deviation limit
-checkbox-tiling-path-closed-loops = Loops use only inner types
-button-tiling-path-reverse = Reverse path
-button-tiling-path-reset = Discard path
-button-tiling-path-randomize = Re-randomize tiling
-button-tiling-path-paint = Paint tiling to map
+label-new-map-bg-title = 新建地图
+label-bg-tileset = 图块集:
+label-bg-width = 宽度:
+label-bg-height = 高度:
+button-new-map-bg-create = 创建
+label-save-map-panel-title = 标题:
+label-save-map-background-title = 标题:
+label-save-map-background-author = 作者:
+label-save-map-background-visibility = 可见性:
+dropdownbutton-save-map-background-visibility-dropdown = 地图可见性
+label-save-map-background-directory = 目录:
+label-save-map-background-filename = 文件名:
+button-save-map-panel = 保存
+label-actor-edit-panel-id = 帐号
+button-container-ok = 确定
+button-editor-world-root-options-tooltip = 菜单
+label-tiles-bg-search = 搜索:
+label-bg-filter = 过滤器:
+label-actors-bg-search = 搜索:
+label-actor-bg-owner = 所有者：
+label-area-selection = 区域选择
+label-area-info = 区域信息
+label-selected-area-diagonal = 对角线:
+label-selected-area-resources = 资源:
+label-selection-filters = 筛选器
+label-filter-terrain = 地形
+label-filter-resources = 资源
+label-filter-actors = 单位
+label-tool-bg-category = 工具：
+button-marker-tiles-clear-current = 清除当前标记
+button-marker-tiles-clear-all = 清除所有标记
+label-marker-layer-num-sides = 边数
+label-marker-alpha = 瓦片不透明度
+label-marker-mirror-mode = 镜像模式
+label-marker-axis-angle = 轴角
+button-map-generator-generate = 生成
+button-map-generator-generate-random = 随机生成
+label-tiling-path-type-start = 起始类型
+label-tiling-path-type-inner = 内部类型
+label-tiling-path-type-end = 结束类型
+label-tiling-path-deviation = 偏差限制
+checkbox-tiling-path-closed-loops = 循环仅使用内部类型
+button-tiling-path-reverse = 反转路径
+button-tiling-path-reset = 丢弃路径
+button-tiling-path-randomize = 重新随机化铺砌
+button-tiling-path-paint = 将铺砌绘制到地图
 
-button-map-editor-tab-container-select-tooltip = Selection
-button-map-editor-tab-container-tiles-tooltip = Tiles
-button-map-editor-tab-container-overlays-tooltip = Overlays
-button-map-editor-tab-container-actors-tooltip = Actors
-button-map-editor-tab-container-tools-tooltip = Tools
-button-map-editor-tab-container-history-tooltip = History
+button-map-editor-tab-container-select-tooltip = 选择
+button-map-editor-tab-container-tiles-tooltip = 图块
+button-map-editor-tab-container-overlays-tooltip = 叠加
+button-map-editor-tab-container-actors-tooltip = 单位
+button-map-editor-tab-container-tools-tooltip = 工具
+button-map-editor-tab-container-history-tooltip = 历史记录
 
 button-delete-area =
-    .label = Delete
-    .tooltip = Remove everything in the selected area
+    .label = 删除
+    .tooltip = 移除选定区域中的所有内容
 
 button-delete-actor =
-    .label = Delete
-    .tooltip = Remove the selected actor
+    .label = 删除
+    .tooltip = 删除所选角色
 
 button-editor-world-root-copy =
-    .label = Copy
-    .tooltip = Copy the selected area
+    .label = 复制
+    .tooltip = 复制
 
 button-editor-world-root-paste =
-    .label = Paste
-    .tooltip = Paste the saved area
+    .label = 粘贴
+    .tooltip = 粘贴
 
 button-editor-world-root-undo =
-    .label = Undo
-    .tooltip = Undo last step
+    .label = 撤销
+    .tooltip = 撤销上一步
 
 button-editor-world-root-redo =
-    .label = Redo
-    .tooltip = Redo last step
+    .label = 重做
+    .tooltip = 重做上一步
 
-dropdownbutton-editor-world-root-overlay-button = Overlays
-button-select-categories-buttons-all = All
-button-select-categories-buttons-none = None
+dropdownbutton-editor-world-root-overlay-button = 叠加
+button-select-categories-buttons-all = 全部
+button-select-categories-buttons-none = 没有
 
-label-tool-marker-tiles = Marker Tiles
-label-tool-tiling-path = Path Tiler
+label-tool-marker-tiles = 标记瓦片
+label-tool-tiling-path = 路径铺砌器
 
 ## encyclopedia.yaml, mainmenu.yaml
-label-encyclopedia-title = EVA Database
+label-encyclopedia-title = 伊娃数据库
 
 ## gamesave-browser.yaml
-label-gamesave-browser-panel-load-title = Load game
-label-gamesave-browser-panel-save-title = Save game
-label-bg-title = [CREATE NEW FILE]
-button-bg-delete-all = Delete All
-button-bg-delete = Delete
-button-bg-rename = Rename
-button-bg-load = Load
-button-bg-save = Save
+label-gamesave-browser-panel-load-title = 加载游戏
+label-gamesave-browser-panel-save-title = 保存游戏
+label-bg-title = [创建新文件]
+button-bg-delete-all = 删除所有
+button-bg-delete = 删除
+button-bg-rename = 重命名
+button-bg-load = 加载
+button-bg-save = 保存
 
 ## gamesave-loading.yaml
-label-gamesave-loading-screen-title = Loading Saved Game
-label-gamesave-loading-screen-desc = Press Escape to cancel loading and return to the main menu
+label-gamesave-loading-screen-title = 加载保存的游戏
+label-gamesave-loading-screen-desc = 按Escape取消加载并返回主菜单
 
 ## ingame-chat.yaml, ingame-infochat.yaml
-button-chat-chrome-mode =
-    .label = Team
-    .tooltip = Toggle chat mode
+button-chat-chrome-mode = 
+    .label = 团队
+    .tooltip = 切换聊天模式
 
 ## ingame-debug.yaml
-label-debug-panel-title = Debug Options
-checkbox-debug-panel-instant-build = Instant Build Speed
-checkbox-debug-panel-enable-tech = Build Everything
-checkbox-debug-panel-build-anywhere = Build Anywhere
-checkbox-debug-panel-unlimited-power = Unlimited Power
-checkbox-debug-panel-instant-charge = Instant Charge Time
-checkbox-debug-panel-disable-visibility-checks = Disable Visibility Checks
-button-debug-panel-give-cash = Give $20,000
-button-debug-panel-grow-resources = Grow Resources
-button-debug-panel-give-exploration = Clear Shroud
-button-debug-panel-reset-exploration = Reset Shroud
-label-debug-panel-visualizations-title = Visualizations
-checkbox-debug-panel-show-unit-paths = Show Unit Paths
-checkbox-debug-panel-show-customterrain-overlay = Show Custom Terrain
-checkbox-debug-panel-show-actor-tags = Show Actor Tags
-checkbox-debug-panel-show-combatoverlay = Show Combat Geometry
-checkbox-debug-panel-show-geometry = Show Render Geometry
-checkbox-debug-panel-show-terrain-overlay = Show Terrain Geometry
-checkbox-debug-panel-show-screenmap = Show Screen Map
+label-debug-panel-title = 调试选项
+checkbox-debug-panel-instant-build = 即时建造速度
+checkbox-debug-panel-enable-tech = 构建所有项目
+checkbox-debug-panel-build-anywhere = 任意位置建造
+checkbox-debug-panel-unlimited-power = 无限电力
+checkbox-debug-panel-instant-charge = 立即充电时间
+checkbox-debug-panel-disable-visibility-checks = 禁用可见性检查
+button-debug-panel-give-cash = 给予$20,000
+button-debug-panel-grow-resources = 增长资源
+button-debug-panel-give-exploration = 清除迷雾
+button-debug-panel-reset-exploration = 重置迷雾
+label-debug-panel-visualizations-title = 可视化
+checkbox-debug-panel-show-unit-paths = 显示单位路径
+checkbox-debug-panel-show-customterrain-overlay = 显示自定义地形
+checkbox-debug-panel-show-actor-tags = 显示单位标签
+checkbox-debug-panel-show-combatoverlay = 显示战斗几何体
+checkbox-debug-panel-show-geometry = 显示渲染几何体
+checkbox-debug-panel-show-terrain-overlay = 显示地形几何体
+checkbox-debug-panel-show-screenmap = 显示屏幕地图
 
 ## ingame-debug-hpf.yaml
-dropdownbutton-hpf-overlay-locomotor = Select Locomotor
-dropdownbutton-hpf-overlay-check = Select BlockedByActor
+dropdownbutton-hpf-overlay-locomotor = 选择移动器
+dropdownbutton-hpf-overlay-check = 选择BlockedByActor
 
 ## ingame-info.yaml
-label-game-info-panel-title = Game Information
+label-game-info-panel-title = 游戏信息
 
 ## ingame-infoobjectives.yaml
-label-mission-objectives = Mission:
+label-mission-objectives = 任务:
 
 ## ingame-infoscripterror.yaml
-label-script-error-panel-desc-a = The map script has encountered a fatal error
-label-script-error-panel-desc-b = The details of the error have been saved to lua.log in the logs directory.
-label-script-error-panel-desc-c = Please send this file to the map author so that they can fix this issue.
+label-script-error-panel-desc-a = 地图脚本遇到一个致命错误
+label-script-error-panel-desc-b = 错误的详细信息已保存到日志目录的 lua.log 中。
+label-script-error-panel-desc-c = 请将此文件发送给地图作者，以便他们能够解决这个问题。
 
 ## ingame-infostats.yaml
-label-mission-objective = Mission:
-checkbox-stats-objective = Destroy all opposition!
-label-stats-player = Player
-label-stats-faction = Faction
-label-stats-score = Score
-label-stats-actions = Actions
+label-mission-objective = 任务:
+checkbox-stats-objective = 摧毁所有对手！
+label-stats-player = 玩家
+label-stats-faction = 派系
+label-stats-score = 得分
+label-stats-actions = 行动
 
 ## ingame.yaml
-button-observer-widget-options-tooltip = Menu
-button-replay-player-pause-tooltip = Pause
-button-replay-player-play-tooltip = Play
+button-observer-widget-options-tooltip = 菜单
+button-replay-player-pause-tooltip = 暂停
+button-replay-player-play-tooltip = 播放
 
 button-replay-player-slow =
-    .tooltip = Slow speed
+    .tooltip = 慢速
     .label = 50%
 
 button-replay-player-regular =
-    .tooltip = Regular speed
+    .tooltip = 常规速度
     .label = 100%
 
 button-replay-player-fast =
-    .tooltip = Fast speed
+    .tooltip = 快速
     .label = 200%
 
 button-replay-player-maximum =
-    .tooltip = Maximum speed
-    .label = MAX
+    .tooltip = 最大速度
+    .label = 最大
 
-label-basic-stats-player-header = Player
-label-basic-stats-cash-header = Cash
-label-basic-stats-power-header = Power
-label-basic-stats-kills-header = Kills
-label-basic-stats-deaths-header = Deaths
-label-basic-stats-assets-destroyed-header = Destroyed
-label-basic-stats-assets-lost-header = Lost
-label-basic-stats-experience-header = Score
-label-basic-stats-actions-min-header = APM
-label-economy-stats-player-header = Player
-label-economy-stats-cash-header = Cash
-label-economy-stats-income-header = Income
-label-economy-stats-assets-header = Assets
-label-economy-stats-earned-header = Earned
-label-economy-stats-spent-header = Spent
-label-economy-stats-harvesters-header = Harvesters
-label-economy-stats-derricks-header = Oil Derricks
-label-production-stats-player-header = Player
-label-production-stats-header = Production
-label-support-powers-player-header = Player
-label-support-powers-header = Support Powers
-label-army-player-header = Player
-label-army-header = Army
-label-combat-stats-player-header = Player
-label-combat-stats-assets-destroyed-header = Destroyed
-label-combat-stats-assets-lost-header = Lost
-label-combat-stats-units-killed-header = U. Killed
-label-combat-stats-units-dead-header = Units Lost
-label-combat-stats-buildings-killed-header = B. Killed
-label-combat-stats-buildings-dead-header = B. Lost
-label-combat-stats-army-value-header = Army Value
-label-combat-stats-vision-header = Vision
+label-basic-stats-player-header = 玩家
+label-basic-stats-cash-header = 资金
+label-basic-stats-power-header = 电力
+label-basic-stats-kills-header = 击杀
+label-basic-stats-deaths-header = 死亡
+label-basic-stats-assets-destroyed-header = 摧毁
+label-basic-stats-assets-lost-header = 损失
+label-basic-stats-experience-header = 分数
+label-basic-stats-actions-min-header = APM（每分钟操作次数）
+label-economy-stats-player-header = 玩家
+label-economy-stats-cash-header = 资金
+label-economy-stats-income-header = 收入
+label-economy-stats-assets-header = 资产
+label-economy-stats-earned-header = 赚取
+label-economy-stats-spent-header = 花费
+label-economy-stats-harvesters-header = 采矿车
+label-economy-stats-derricks-header = 油井
+label-production-stats-player-header = 玩家
+label-production-stats-header = 生产
+label-support-powers-player-header = 玩家
+label-support-powers-header = 支援能力
+label-army-player-header = 玩家
+label-army-header = 军队
+label-combat-stats-player-header = 玩家
+label-combat-stats-assets-destroyed-header = 摧毁
+label-combat-stats-assets-lost-header = 损失
+label-combat-stats-units-killed-header = 单位击杀
+label-combat-stats-units-dead-header = U. Lost
+label-combat-stats-buildings-killed-header = 建筑击杀
+label-combat-stats-buildings-dead-header = 建筑损失
+label-combat-stats-army-value-header = 军队价值
+label-combat-stats-vision-header = 视野
 
 supportpowers-support-powers-palette =
-    .ready = Ready
-    .hold = On Hold
+    .ready = READY
+    .hold = ON HOLD
 
 button-command-bar-attack-move =
-    .tooltip = Attack Move
+    .tooltip = 攻击移动
     .tooltipdesc =
-    Selected units will move to the desired location
-    and attack any enemies they encounter en route.
+    选中的单位将移动到目标位置
+    并在途中攻击遇到的任何敌人。
 
-    Hold <(Ctrl)> while targeting to order an Assault Move
-    that attacks any units or structures encountered en route.
+    按住<(Ctrl)>进行突击移动
+    攻击途中遇到的任何单位或结构。
 
-    Left-click icon then right-click on target location.
+    左键点击图标，然后右键点击目标位置。
 
 button-command-bar-force-move =
-    .tooltip = Force Move
+    .tooltip = 强制移动
     .tooltipdesc =
     Selected units will move to the desired location
      - Default activity for the target is suppressed
@@ -273,7 +273,7 @@ button-command-bar-force-move =
     Hold <(Alt)> to activate temporarily while commanding units.
 
 button-command-bar-force-attack =
-    .tooltip = Force Attack
+    .tooltip = 强制攻击
     .tooltipdesc =
     Selected units will attack the targeted unit or location
      - Default activity for the target is suppressed
@@ -285,14 +285,14 @@ button-command-bar-force-attack =
     Hold <(Ctrl)> to activate temporarily while commanding units.
 
 button-command-bar-guard =
-    .tooltip = Guard
+    .tooltip = 护卫
     .tooltipdesc =
-    Selected units will follow the targeted unit.
+    选中的单位将跟随目标单位。
 
-    Left-click icon then right-click on target unit.
+    左键点击图标，然后右键点击目标单位。
 
 button-command-bar-deploy =
-    .tooltip = Deploy
+    .tooltip = 部署
     .tooltipdesc =
     Selected units will perform their default deploy activity
      - MCVs will unpack into a Construction Yard
@@ -301,464 +301,457 @@ button-command-bar-deploy =
 
     Acts immediately on selected units.
 
-button-command-bar-scatter =
-    .tooltip = Scatter
+button-command-bar-scatter = 
+    .tooltip = 散开
     .tooltipdesc =
-    Selected units will stop their current activity
-    and move to a nearby location.
+    选中的单位将停止当前活动并移动到附近位置。
 
-    Acts immediately on selected units.
+    立即对选中的单位生效。
 
 button-command-bar-stop =
-    .tooltip = Stop
+    .tooltip = 停止
     .tooltipdesc =
-    Selected units will stop their current activity.
-    Selected buildings will reset their rally point.
+    选中的单位将停止当前活动。选中的建筑将重置集结点。
 
-    Acts immediately on selected targets.
+    立即对选中的目标生效。
 
 button-command-bar-queue-orders =
-    .tooltip = Waypoint Mode
+    .tooltip = 路径点模式
     .tooltipdesc =
-    Use Waypoint Mode to give multiple linking commands
-    to the selected units. Units will execute the commands
-    immediately upon receiving them.
+    使用路径点模式为选中的单位下达多个链接命令。单位将在收到命令后立即执行。
+    左键点击图标，然后在游戏世界中下达命令。
 
-    Left-click icon then give commands in the game world.
-    Hold <(Shift)> to activate temporarily while commanding units.
+    按住<(Shift)>在指挥单位时临时激活。
 
 button-stance-bar-attackanything =
-    .tooltip = Attack Anything Stance
+    .tooltip = 攻击任何事物姿态
     .tooltipdesc =
     Set the selected units to Attack Anything stance:
      - Units will attack enemy units and structures on sight
      - Units will pursue attackers across the battlefield
 
 button-stance-bar-defend =
-    .tooltip = Defend Stance
+    .tooltip = 防御姿态
     .tooltipdesc =
     Set the selected units to Defend stance:
      - Units will attack enemy units on sight
      - Units will not move or pursue enemies
 
 button-stance-bar-returnfire =
-    .tooltip = Return Fire Stance
+    .tooltip = 还击姿态
     .tooltipdesc =
     Set the selected units to Return Fire stance:
      - Units will retaliate against enemies that attack them
      - Units will not move or pursue enemies
 
 button-stance-bar-holdfire =
-    .tooltip = Hold Fire Stance
+    .tooltip = 停火姿态
     .tooltipdesc =
     Set the selected units to Hold Fire stance:
      - Units will not fire upon enemies
      - Units will not move or pursue enemies
 
-label-mute-indicator = Audio Muted
-button-top-buttons-sell-tooltip = Sell
-button-top-buttons-repair-tooltip = Repair
-button-top-buttons-beacon-tooltip = Place Beacon
-button-top-buttons-options-tooltip = Options
-button-production-types-building-tooltip = Buildings
-button-production-types-support-tooltip = Support
-button-production-types-infantry-tooltip = Infantry
+label-mute-indicator = 音频静音
+button-top-buttons-sell-tooltip = 出售
+button-top-buttons-repair-tooltip = 修理
+button-top-buttons-beacon-tooltip = 放置信标
+button-top-buttons-options-tooltip = 选项
+button-production-types-building-tooltip = 建筑
+button-production-types-support-tooltip = 支持
+button-production-types-infantry-tooltip = 步兵
 button-production-types-vehicle-tooltip = Vehicles
-button-production-types-aircraft-tooltip = Aircraft
+button-production-types-aircraft-tooltip = 飞机
 
 productionpalette-player-widgets-production-palette =
-    .ready = Ready
-    .hold = On Hold
+    .ready = 准备就绪
+    .hold = 暂停
 
 ## lobby-kickdialogs.yaml
-label-kick-client-dialog-text-a = You may also apply a temporary ban, preventing
-label-kick-client-dialog-text-b = them from joining for the remainder of this game.
-checkbox-kick-client-dialog-prevent-rejoining = Temporarily Ban
-button-kick-client-dialog = Kick
-label-kick-spectators-dialog-title = Kick Spectators
-button-kick-spectators-dialog-ok = Ok
-label-force-start-dialog-title = Start Game?
-label-force-start-dialog-text-a = One or more players are not yet ready.
-label-force-start-dialog-text-b = Are you sure that you want to force start the game?
-label-kick-warning-a = One or more clients are missing the selected
-label-kick-warning-b = map, and will be kicked from the server.
-button-force-start-dialog-start = Start
+label-kick-client-dialog-text-a = 您也可以临时禁令，防止此种行为的发生。
+label-kick-client-dialog-text-b = 在接下来的比赛中阻止他们加入
+checkbox-kick-client-dialog-prevent-rejoining = 临时禁止
+button-kick-client-dialog = 踢出
+label-kick-spectators-dialog-title = 踢出观众
+button-kick-spectators-dialog-ok = 确定
+label-force-start-dialog-title = 开始游戏?
+label-force-start-dialog-text-a = 一个或多个玩家尚未就绪。
+label-force-start-dialog-text-b = 您确定要强制开始游戏吗？
+label-kick-warning-a = 一名或多名客户端缺少所选
+label-kick-warning-b = 地图，并将被服务器踢出。
+button-force-start-dialog-start = 开始
 
 ## lobby-mappreview.yaml
-label-map-incompatible-status-a = This map is not compatible
-label-map-incompatible-status-b = with this version of OpenRA
-label-map-validating-status = Validating...
-label-map-generating-status = Generating...
-button-map-download-available-install = Install Map
-button-map-preview-update = Update Map
-button-map-update-download-available-install = Install Map
-label-map-preview-searching = Searching OpenRA Resource Center...
-label-map-unavailable-a = This map was not found on the
-label-map-unavailable-b = OpenRA Resource Center
-label-map-preview-error = An error occurred during installation
-label-map-update-available-a = A new version of the map
-label-map-update-available-b = was found on your computer
+label-map-incompatible-status-a = 此地图不兼容
+label-map-incompatible-status-b = 与此版本的OpenRA
+label-map-validating-status = 验证中...
+label-map-generating-status = 生成中...
+button-map-download-available-install = 安装地图
+button-map-preview-update = 更新地图
+button-map-update-download-available-install = 安装地图
+label-map-preview-searching = 正在搜索OpenRA资源中心...
+label-map-unavailable-a = 该地图在
+label-map-unavailable-b = OpenRA资源中心未找到
+label-map-preview-error = 安装过程中发生错误
+label-map-update-available-a = 地图的新版本
+label-map-update-available-b = 在您的电脑上找到了
 
 ## lobby-music.yaml
-label-music-controls-volume = Volume:
+label-music-controls-volume = 音量:
 
 ## lobby-music.yaml, lobby.yaml, mainmenu.yaml
-label-music-title = Music
+label-music-title = 音乐
 
 ## music.yaml
-label-music-title-panel-title = Music Player
+label-music-title-panel-title = 音乐播放器
 
 ## lobby-music.yaml, music.yaml
-label-music-controls-length = Length
-checkbox-music-controls-shuffle = Shuffle
-checkbox-music-controls-loop = Loop
-label-container-title = Track
-label-no-music-title = Music Not Installed
-label-no-music-desc-a = The game music can be installed
-label-no-music-desc-b = from the "Manage Content" menu.
+label-music-controls-length = 时长
+checkbox-music-controls-shuffle = 随机播放
+checkbox-music-controls-loop = 循环播放
+label-container-title = 曲目
+label-no-music-title = 未安装音乐
+label-no-music-desc-a = 游戏音乐可以安装
+label-no-music-desc-b = 从“管理内容”菜单中。
 
 ## lobby-options.yaml
-label-lobby-options-bin-title = Map Options
+label-lobby-options-bin-title = 地图选项
 
 ## lobby-players.yaml
-label-lobby-players-player = Player
-label-lobby-players-color = Color
-label-lobby-players-faction = Faction
-label-lobby-players-team = Team
-label-lobby-players-handicap = Handicap
-label-lobby-players-spawn = Spawn
-label-lobby-players-ready = Ready
-label-lobby-players-name = Name
-dropdownbutton-lobby-players-handicap-tooltip = A handicap decreases the combat effectiveness of the player's forces
-button-lobby-players-join = Play in this slot
-label-lobby-players-spectator = Spectator
-checkbox-lobby-players-new-spectator-toggle = Allow Spectators?
-button-lobby-players-spectate = Spectate
+label-lobby-players-player = 玩家
+label-lobby-players-color = 颜色
+label-lobby-players-faction = 派系
+label-lobby-players-team = 队伍
+label-lobby-players-handicap = 障碍
+label-lobby-players-spawn = 出生点
+label-lobby-players-ready = 准备
+label-lobby-players-name = 名称
+dropdownbutton-lobby-players-handicap-tooltip = 障碍会降低玩家部队的战斗效能
+button-lobby-players-join = 加入此槽位
+label-lobby-players-spectator = 观众
+checkbox-lobby-players-new-spectator-toggle = 允许观众?
+button-lobby-players-spectate = 观看
 
 ## lobby-servers.yaml
-image-lobby-servers-bin-password-protected-tooltip = Requires Password
-image-lobby-servers-bin-requires-authentication-tooltip = Requires OpenRA forum account
-dropdownbutton-lobby-servers-bin-filters = Filter Games
+image-lobby-servers-bin-password-protected-tooltip = 需要密码
+image-lobby-servers-bin-requires-authentication-tooltip = 需要OpenRA论坛账户
+dropdownbutton-lobby-servers-bin-filters = 筛选游戏
 
 ## lobby.yaml
-dropdownbutton-bg-slots = Slot Admin
-button-bg-reset-options = Reset Defaults
-button-skirmish-tabs-players-tab = Players
-button-skirmish-tabs-options-tab = Options
-button-multiplayer-tabs-players-tab = Players
-button-multiplayer-tabs-options-tab = Options
-button-multiplayer-tabs-servers-tab = Servers
-button-bg-changemap = Change Map
+dropdownbutton-bg-slots = 位置管理
+button-bg-reset-options = 重置默认值
+button-skirmish-tabs-players-tab = 玩家
+button-skirmish-tabs-options-tab = 选项
+button-multiplayer-tabs-players-tab = 玩家
+button-multiplayer-tabs-options-tab = 选项
+button-multiplayer-tabs-servers-tab = 服务器
+button-bg-changemap = 更换地图
 
 button-lobbychat-chat-mode =
-    .label = Team
-    .tooltip = Toggle chat mode
+    .label = 团队
+    .tooltip = 切换聊天模式
 
-button-server-lobby-disconnect = Leave Game
-button-server-lobby-start-game = Start Game
+button-server-lobby-disconnect = 离开游戏
+button-server-lobby-start-game = 开始游戏
 
 ## mainmenu-prompts.yaml
-label-mainmenu-introduction-prompt-title = Establishing Battlefield Control
-label-bg-desc-a = Welcome back Commander! Initialize combat parameters using the options below.
-label-bg-desc-b = Additional options can be configured later from the Settings menu.
-label-mainmenu-system-info-prompt-title = Establishing Battlefield Control
-label-bg-prompt-text-a = We would like to collect some details that will help us optimize OpenRA.
-label-bg-prompt-text-b = With your permission, the following anonymous system data will be sent:
-checkbox-bg-sysinfo = Send System Information
+label-mainmenu-introduction-prompt-title = 建立战场控制
+label-bg-desc-a = 欢迎回来指挥官！使用以下选项初始化战斗参数。
+label-bg-desc-b = 其他选项可以在设置菜单中稍后配置。
+label-mainmenu-system-info-prompt-title = 建立战场控制
+label-bg-prompt-text-a = 我们希望收集一些细节，以帮助我们优化OpenRA。
+label-bg-prompt-text-b = 在您的允许下，以下匿名系统数据将被发送：
+checkbox-bg-sysinfo = 发送系统信息
 
 ## mainmenu-prompts.yaml, settings-display.yaml
-label-profile-section-header = Profile
-label-player-container = Player Name:
-label-playercolor-container-color = Preferred Color:
-label-display-section-header = Display
-label-battlefield-camera-dropdown = Battlefield Camera:
-label-ui-scale-dropdown = UI Scale:
-checkbox-cursordouble-container = Increase Cursor Size
+label-profile-section-header = 档案
+label-player-container = 玩家名称:
+label-playercolor-container-color = 首选颜色:
+label-display-section-header = 显示
+label-battlefield-camera-dropdown = 战场相机:
+label-ui-scale-dropdown = UI缩放:
+checkbox-cursordouble-container = 增加光标大小
 
 ## mainmenu-prompts.yaml, settings-input.yaml
-label-input-section-header = Input
-label-mouse-control-container = Control Scheme:
-label-mouse-control-desc-classic-selection = - Select units using the <Left> mouse button
-label-mouse-control-desc-classic-commands = - Command units using the <Left> mouse button
-label-mouse-control-desc-classic-buildings = - Place structures using the <Left> mouse button
-label-mouse-control-desc-classic-support = - Target support powers using the <Left> mouse button
-label-mouse-control-desc-classic-zoom = - Zoom the battlefield using the <Scroll Wheel>
-label-mouse-control-desc-classic-zoom-modifier = - Zoom the battlefield using <MODIFIER + Scroll Wheel>
-label-mouse-control-desc-classic-scroll-right = - Pan the battlefield using the <Right> mouse button
-label-mouse-control-desc-classic-scroll-middle = - Pan the battlefield using the <Middle> mouse button
-label-mouse-control-desc-classic-edgescroll = or by moving the cursor to the edge of the screen
-label-mouse-control-desc-modern-selection = - Select units using the <Left> mouse button
-label-mouse-control-desc-modern-commands = - Command units using the <Right> mouse button
-label-mouse-control-desc-modern-buildings = - Place structures using the <Left> mouse button
-label-mouse-control-desc-modern-support = - Target support powers using the <Left> mouse button
-label-mouse-control-desc-modern-zoom = - Zoom the battlefield using the <Scroll Wheel>
-label-mouse-control-desc-modern-zoom-modifier = - Zoom the battlefield using <MODIFIER + Scroll Wheel>
-label-mouse-control-desc-modern-scroll-right = - Pan the battlefield using the <Right> mouse button
-label-mouse-control-desc-modern-scroll-middle = - Pan the battlefield using the <Middle> mouse button
-label-mouse-control-desc-modern-edgescroll = or by moving the cursor to the edge of the screen
-checkbox-edgescroll-container = Screen Edge Panning
+label-input-section-header = 输入
+label-mouse-control-container = 控制方案:
+label-mouse-control-desc-classic-selection = - 使用<Left>鼠标按钮选择单位
+label-mouse-control-desc-classic-commands = - 使用<Left>鼠标按钮命令单位
+label-mouse-control-desc-classic-buildings = - 使用 <Left> 鼠标按钮放置建筑
+label-mouse-control-desc-classic-support = - 使用<Left>鼠标按钮瞄准支援技能
+label-mouse-control-desc-classic-zoom = - 使用<Scroll Wheel>缩放战场
+label-mouse-control-desc-classic-zoom-modifier = - 使用<MODIFIER + Scroll Wheel>缩放战场
+label-mouse-control-desc-classic-scroll-right = - 使用<Right>鼠标按钮平移战场
+label-mouse-control-desc-classic-scroll-middle = - 使用<Middle>鼠标按钮平移战场
+label-mouse-control-desc-classic-edgescroll = 或通过将光标移动到屏幕边缘
+label-mouse-control-desc-modern-selection = - 使用<Left>鼠标按钮选择单位
+label-mouse-control-desc-modern-commands = - 使用<Right>鼠标按钮命令单位
+label-mouse-control-desc-modern-buildings = - 使用 <Left> 鼠标按钮放置建筑
+label-mouse-control-desc-modern-support = - 使用<Left>鼠标按钮瞄准支援技能
+label-mouse-control-desc-modern-zoom = - 使用<Scroll Wheel>缩放战场
+label-mouse-control-desc-modern-zoom-modifier = - 使用<MODIFIER + Scroll Wheel>缩放战场
+label-mouse-control-desc-modern-scroll-right = - 使用<Right>鼠标按钮平移战场
+label-mouse-control-desc-modern-scroll-middle = - 使用<Middle>鼠标按钮平移战场
+label-mouse-control-desc-modern-edgescroll = 或通过将光标移动到屏幕边缘
+checkbox-edgescroll-container = 屏幕边缘平移
 
 ## mainmenu.yaml
-label-singleplayer-title = Singleplayer
-label-main-menu-mainmenu-title = Main Menu
-button-extras-title = Extras
-button-main-menu-content = Manage Content
-button-singleplayer-menu-skirmish = Skirmish
-button-singleplayer-menu-load = Load
-button-extras-menu-replays = Replays
-label-map-editor-title = Map Editor
-button-extras-menu-assetbrowser = Asset Browser
-button-map-editor-new-map = New Map
-button-map-editor-load-map = Load Map
-dropdownbutton-news-bg-button = Battlefield News
-label-update-notice-a = You are running an outdated version of OpenRA.
-label-update-notice-b = Download the latest version from www.openra.net
+label-singleplayer-title = 单人游戏
+label-main-menu-mainmenu-title = 主菜单
+button-extras-title = 额外内容
+button-main-menu-content = 管理内容
+button-singleplayer-menu-skirmish = 小规模战斗
+button-singleplayer-menu-load = 加载
+button-extras-menu-replays = 回放
+label-map-editor-title = 地图编辑器
+button-extras-menu-assetbrowser = 资源浏览器
+button-map-editor-new-map = 新建地图
+button-map-editor-load-map = 加载地图
+dropdownbutton-news-bg-button = 战场新闻
+label-update-notice-a = 您正在运行过时的OpenRA版本。
+label-update-notice-b = 从www.openra.net下载最新版本
 
 ## mainmenu.yaml, missionbrowser.yaml
-label-missions-title = Missions
+label-missions-title = 任务
 
 ## mainmenu.yaml, multiplayer-browser.yaml
-label-multiplayer-title = Multiplayer
+label-multiplayer-title = 多人游戏
 
 ## mainmenu.yaml, settings.yaml
-button-settings-title = Settings
+button-settings-title = 设置
 
 ## mapchooser.yaml
-label-mapchooser-panel-title = Select Map
-label-filter-order-controls-desc = Filter:
-label-filter-order-controls-desc-joiner = in
-label-filter-order-controls-orderby = Order by:
-button-bg-randommap = Random
-button-bg-delete-map = Delete Map
-button-bg-delete-all-maps = Delete All Maps
-button-bg-ok = Ok
+label-mapchooser-panel-title = 选择地图
+label-filter-order-controls-desc = 过滤:
+label-filter-order-controls-desc-joiner = 在
+label-filter-order-controls-orderby = 排序方式:
+button-bg-randommap = 随机
+button-bg-delete-map = 删除地图
+button-bg-delete-all-maps = 删除所有地图
+button-bg-ok = 确定
 
-label-mapchooser-random-map-title = Random Map
-label-mapchooser-random-map-generating = Generating...
-label-mapchooser-random-map-error = Map Generation Failed
-button-mapchooser-random-map-generate = Generate
-label-mapchooser-random-map-tileset = Environment:
-label-mapchooser-random-map-size = Map Size:
-label-mapchooser-random-map-error-desc = Adjust the settings or try again.
+label-mapchooser-random-map-title = 随机地图
+label-mapchooser-random-map-generating = 生成中...
+label-mapchooser-random-map-error = 地图生成失败
+button-mapchooser-random-map-generate = 生成
+label-mapchooser-random-map-tileset = 环境：
+label-mapchooser-random-map-size = 地图大小：
+label-mapchooser-random-map-error-desc = 调整设置或重试。
 
 ## missionbrowser.yaml
-button-missionbrowser-panel-mission-info = Mission Info
-button-missionbrowser-panel-mission-options = Options
-button-missionbrowser-panel-start-briefing-video = Watch Briefing
-button-missionbrowser-panel-stop-briefing-video = Stop Briefing
-button-missionbrowser-panel-start-info-video = Watch Info Video
-button-missionbrowser-panel-stop-info-video = Stop Info Video
-button-missionbrowser-panel-play = Play
+button-missionbrowser-panel-mission-info = 任务信息
+button-missionbrowser-panel-mission-options = 选项
+button-missionbrowser-panel-start-briefing-video = 观看简报
+button-missionbrowser-panel-stop-briefing-video = 停止简报
+button-missionbrowser-panel-start-info-video = 观看信息视频
+button-missionbrowser-panel-stop-info-video = 停止信息视频
+button-missionbrowser-panel-play = 播放
 dropdown-missionbrowser-difficulty =
-    .label = Difficulty
-    .description = The difficulty of the mission
-
-dropdown-missionbrowser-gamespeed = Speed:
-label-missionbrowser-normal-difficulty = Normal
+    .label = 难度
+    .description = 任务难度
+dropdown-missionbrowser-gamespeed = 速度：
+label-missionbrowser-normal-difficulty = 普通
 
 ## multiplayer-browser.yaml
-image-bg-password-protected-tooltip = Requires Password
-image-bg-requires-authentication-tooltip = Requires OpenRA forum account
-button-selected-server-join = Join
-dropdownbutton-bg-filters = Filter Games
-button-bg-directconnect = Direct IP
-button-bg-create = Create
+image-bg-password-protected-tooltip = 需要密码
+image-bg-requires-authentication-tooltip = 需要OpenRA论坛账号
+button-selected-server-join = 加入
+dropdownbutton-bg-filters = 过滤游戏
+button-bg-directconnect = 直接IP
+button-bg-create = 创建
 
 ## multiplayer-browser.yaml, lobby-servers.yaml
-label-container-server = Server
-label-container-players = Players
-label-container-location = Location
-label-container-status = Status
-label-bg-outdated-version = You are running an outdated version of OpenRA. Download the latest version from www.openra.net
-label-bg-unknown-version = You are running an unrecognized version of OpenRA. Download the latest version from www.openra.net
-label-bg-playtest-available = A preview of the next OpenRA release is available for testing. Download the playtest from www.openra.net
+label-container-server = 服务器
+label-container-players = 玩家
+label-container-location = 位置
+label-container-status = 状态
+label-bg-outdated-version = 您正在运行过时的OpenRA版本。从www.openra.net下载最新版本
+label-bg-unknown-version = 您正在运行未识别的OpenRA版本。从www.openra.net下载最新版本
+label-bg-playtest-available = 下一个OpenRA版本的预览版可供测试。从www.openra.net下载测试版
 
 ## multiplayer-browserpanels.yaml
-checkbox-multiplayer-filter-panel-waiting-for-players = Waiting
-checkbox-multiplayer-filter-panel-empty = Empty
-checkbox-multiplayer-filter-panel-password-protected = Protected
-checkbox-multiplayer-filter-panel-already-started = Started
-checkbox-multiplayer-filter-panel-incompatible-version = Incompatible
+checkbox-multiplayer-filter-panel-waiting-for-players = 等待玩家
+checkbox-multiplayer-filter-panel-empty = 空
+checkbox-multiplayer-filter-panel-password-protected = 受保护
+checkbox-multiplayer-filter-panel-already-started = 已开始
+checkbox-multiplayer-filter-panel-incompatible-version = 不兼容
 
 ## multiplayer-createserver.yaml
-label-multiplayer-createserver-panel-title = Create Server
-label-bg-server-name = Server Name:
-label-bg-password = Password:
-label-bg-after-password = (optional)
-label-bg-listen-port = Port:
-checkbox-bg-advertise = Advertise Online
-label-notices-lan-advertising = - Game will be advertised to the Local Area Network only.
-label-notices-lan-firewall = - You must manually configure your firewall to allow connections.
-label-notices-lan-portforward-a = - Players can connect using Direct IP from the Internet if you
-label-notices-lan-portforward-b = manually configure port forwarding on your router.
-label-notices-no-upnp-advertising = - Game will be advertised to the Local Area Network and Internet.
-label-notices-no-upnp-firewall = - You must manually configure your firewall to allow connections.
-label-notices-no-upnp-portforward-a = - You must manually configure your router to allow and forward
-label-notices-no-upnp-portforward-b = connections to your local IP and Port.
-label-notices-no-upnp-settings-a = - You can enable UPnP/NAT-PMP (if supported by your router)
-label-notices-no-upnp-settings-b = in the Advanced tab of the settings menu.
-label-notices-upnp-advertising = - Game will be advertised to the Local Area Network and Internet.
-label-notices-upnp-firewall = - You must manually configure your firewall to allow connections.
-label-notices-upnp-portforward-a = - Game will automatically configure port forwarding.
-label-notices-upnp-settings-a = - You can disable UPnP/NAT-PMP in the settings menu.
-button-multiplayer-createserver-panel-change-map = Change Map
-button-multiplayer-createserver-panel-create = Create
+label-multiplayer-createserver-panel-title = 创建服务器
+label-bg-server-name = 服务器名称:
+label-bg-password = 密码:
+label-bg-after-password = (可选)
+label-bg-listen-port = 端口:
+checkbox-bg-advertise = 在线广告
+label-notices-lan-advertising = - 游戏将仅在局域网内广告。
+label-notices-lan-firewall = - 您必须手动配置防火墙以允许连接。
+label-notices-lan-portforward-a = - 如果手动配置路由器端口转发，玩家可以使用直接IP从互联网连接。
+label-notices-lan-portforward-b = 手动配置路由器端口转发。
+label-notices-no-upnp-advertising = - 游戏将在局域网和互联网上广告。
+label-notices-no-upnp-firewall = - 您必须手动配置防火墙以允许连接。
+label-notices-no-upnp-portforward-a = - 您必须手动配置路由器以允许并转发
+label-notices-no-upnp-portforward-b = 连接到您的本地IP和端口。
+label-notices-no-upnp-settings-a = - 您可以在设置菜单的高级选项卡中
+label-notices-no-upnp-settings-b = 启用UPnP/NAT-PMP（如果您的路由器支持）。
+label-notices-upnp-advertising = - 游戏将在局域网和互联网上广告。
+label-notices-upnp-firewall = - 您必须手动配置防火墙以允许连接。
+label-notices-upnp-portforward-a = - 游戏将自动配置端口转发。
+label-notices-upnp-settings-a = - 您可以在设置菜单中禁用UPnP/NAT-PMP。
+button-multiplayer-createserver-panel-change-map = 更改地图
+button-multiplayer-createserver-panel-create = 创建
 
 ## multiplayer-directconnect.yaml
-label-directconnect-panel-title = Connect to Server
-label-bg-address = Address:
-label-bg-port = Port:
-button-directconnect-panel-join = Join
+label-directconnect-panel-title = 连接到服务器
+label-bg-address = 地址:
+label-bg-port = 端口:
+button-directconnect-panel-join = 加入
 
 ## playerprofile.yaml
-button-profile-header-logout = Logout
-label-generate-keys-desc-a = Connect to a forum account to identify
-label-generate-keys-desc-b = yourself to other players, join private
-label-generate-keys-desc-c = servers, and display badges.
-button-generate-keys-key = Connect to an OpenRA forum account
-label-generating-keys-desc-a = Generating authentication key pair.
-label-generating-keys-desc-b = This will take several seconds...
-label-register-fingerprint-desc-a = An authentication key has been copied to your
-label-register-fingerprint-desc-b = clipboard. Add this to your User Control Panel
-label-register-fingerprint-desc-c = on the OpenRA forum then press Continue.
-label-checking-fingerprint-desc-a = Querying account details from
-label-checking-fingerprint-desc-b = the OpenRA forum...
-label-fingerprint-not-found-desc-a = Your authentication key is not connected
-label-fingerprint-not-found-desc-b = to an OpenRA forum account.
-label-connection-error-desc-a = Failed to connect to the OpenRA forum.
-label-connection-error-desc-b = Please check your internet connection.
+button-profile-header-logout = 注销
+label-generate-keys-desc-a = 连接到论坛账号以识别
+label-generate-keys-desc-b = 自己对其他玩家，加入私人
+label-generate-keys-desc-c = 服务器，并显示徽章。
+button-generate-keys-key = 连接到OpenRA论坛账号
+label-generating-keys-desc-a = 生成认证密钥对。
+label-generating-keys-desc-b = 这将需要几秒钟...
+label-register-fingerprint-desc-a = 认证密钥已复制到您的
+label-register-fingerprint-desc-b = 剪贴板。将其添加到您的用户控制面板
+label-register-fingerprint-desc-c = 在OpenRA论坛上，然后按继续。
+label-checking-fingerprint-desc-a = 从OpenRA论坛查询账号详情...
+label-checking-fingerprint-desc-b = 从OpenRA论坛查询账号详情...
+label-fingerprint-not-found-desc-a = 您的认证密钥未连接
+label-fingerprint-not-found-desc-b = 到OpenRA论坛账号。
+label-connection-error-desc-a = 无法连接到OpenRA论坛。
+label-connection-error-desc-b = 请检查您的互联网连接。
 
 ## replaybrowser.yaml
-label-replaybrowser-panel-title = Replay Viewer
-label-filters-title = Filter
-label-filters-flt-gametype-desc = Type:
-dropdownbutton-filters-any = Any
-label-filters-flt-date-desc = Date:
-label-filters-flt-duration-desc = Duration:
-label-filters-flt-mapname-desc = Map:
-label-filters-flt-player-desc = Player:
-dropdownbutton-filters-flt-player = Anyone
-label-filters-flt-outcome-desc = Outcome:
-label-filters-flt-faction-desc = Faction:
-button-filters-flt-reset = Reset Filters
-label-management-manage-title = Manage
-button-management-mng-rensel = Rename
-button-management-mng-delsel = Delete
-button-management-mng-delall = Delete All
-label-replay-list-container-replaybrowser-title = Choose Replay
-button-replaybrowser-panel-watch = Watch
+label-replaybrowser-panel-title = 回放查看器
+label-filters-title = 过滤
+label-filters-flt-gametype-desc = 类型:
+dropdownbutton-filters-any = 任何
+label-filters-flt-date-desc = 日期:
+label-filters-flt-duration-desc = 持续时间:
+label-filters-flt-mapname-desc = 地图:
+label-filters-flt-player-desc = 玩家:
+dropdownbutton-filters-flt-player = 任何人
+label-filters-flt-outcome-desc = 结果:
+label-filters-flt-faction-desc = 阵营:
+button-filters-flt-reset = 重置过滤器
+label-management-manage-title = 管理
+button-management-mng-rensel = 重命名
+button-management-mng-delsel = 删除
+button-management-mng-delall = 删除所有
+label-replay-list-container-replaybrowser-title = 选择回放
+button-replaybrowser-panel-watch = 观看
 
 ## settings-advanced.yaml
-label-network-section-header = Advanced
-checkbox-nat-discovery-container = Enable UPnP/NAT-PMP Discovery
-checkbox-fetch-news-container = Fetch Community News
-checkbox-perfgraph-container = Show Performance Graph
-checkbox-check-version-container = Check for Updates
-checkbox-perftext-container = Show Performance Text
-checkbox-sendsysinfo-container = Send System Information
-label-sendsysinfo-checkbox-container-desc = Your Operating System, OpenGL and .NET runtime versions, and language settings will be sent along with an anonymous ID to help prioritize future development.
-label-debug-section-header = Developer
-label-debug-hidden-container-a = Additional developer-specific options can be enabled via the
-label-debug-hidden-container-b = Debug.DisplayDeveloperSettings setting or launch flag
-checkbox-botdebug-container = Show Bot Debug Messages
-checkbox-checkbotsync-container = Check Sync around BotModule Code
-checkbox-luadebug-container = Show Map Debug Messages
-checkbox-checkunsynced-container = Check Sync around Unsynced Code
-checkbox-replay-commands-container = Enable Debug Commands in Replays
-checkbox-perflogging-container = Enable Tick Performance Logging
+label-network-section-header = 高级
+checkbox-nat-discovery-container = 启用UPnP/NAT-PMP发现
+checkbox-fetch-news-container = 获取社区新闻
+checkbox-perfgraph-container = 显示性能图表
+checkbox-check-version-container = 检查更新
+checkbox-perftext-container = 显示性能文本
+checkbox-sendsysinfo-container = 发送系统信息
+label-sendsysinfo-checkbox-container-desc = 您的操作系统、OpenGL和.NET运行时版本以及语言设置将与匿名ID一起发送，以帮助优先考虑未来的开发。
+label-debug-section-header = 开发者
+label-debug-hidden-container-a = 可以通过
+label-debug-hidden-container-b = Debug.DisplayDeveloperSettings设置或启动标志启用其他开发者特定选项
+checkbox-botdebug-container = 显示机器人调试消息
+checkbox-checkbotsync-container = 在BotModule代码周围检查同步
+checkbox-luadebug-container = 显示地图调试消息
+checkbox-checkunsynced-container = 在未同步代码周围检查同步
+checkbox-replay-commands-container = 在回放中启用调试命令
+checkbox-perflogging-container = 启用Tick性能日志记录
 
 ## settings-audio.yaml
-label-audio-section-header = Audio
-label-no-audio-device-container = Audio controls require an active sound device
-checkbox-cash-ticks-container = Cash Ticks
-checkbox-mute-sound-container = Mute Sound
-label-sound-volume-container = Sound Volume:
+label-audio-section-header = 音频
+label-no-audio-device-container = 音频控件需要活动声音设备
+checkbox-cash-ticks-container = 现金提示音
+checkbox-mute-sound-container = 静音声音
+label-sound-volume-container = 声音音量:
 
 checkbox-mute-background-music-container =
-    .label = Mute Menu Music
-    .tooltip = Mute background music when no specific track is playing
+    .label = 静音菜单音乐
+    .tooltip = 当没有特定曲目播放时静音背景音乐
 
-label-music-title-volume-container = Music Volume:
-label-audio-device-container = Audio Device:
-label-video-volume-container = Video Volume:
-label-restart-required-container-audio-desc = Device changes will be applied after the game is restarted
+label-music-title-volume-container = 音乐音量:
+label-audio-device-container = 音频设备:
+label-video-volume-container = 视频音量:
+label-restart-required-container-audio-desc = 设备更改将在游戏重启后应用
 
 ## settings-gameplay.yaml
-label-game-play-section-header = Auto-save
-auto-save-interval-label = Auto-save frequency:
-auto-save-max-file-number-label = Auto-save limit:
+label-game-play-section-header = 自动保存
+auto-save-interval-label = 自动保存频率：
+auto-save-max-file-number-label = 自动保存限制：
 
 ## settings-display.yaml
-label-target-lines-dropdown-container = Target Lines:
-label-status-bar-dropdown-container-bars = Status Bars:
+label-target-lines-dropdown-container = 目标线:
+label-status-bar-dropdown-container-bars = 状态栏:
 
 checkbox-player-stance-colors-container =
-    .label = Player Relationship Colors
-    .tooltip = Change player colors based on relationship (own, enemy, ally, neutral)
+    .label = 玩家关系颜色
+    .tooltip = 根据关系（自己、敌人、盟友、中立）更改玩家颜色
 
 checkbox-ui-feedback-container =
-    .label = Show UI Feedback Notifications
-    .tooltip = Show transient text notifications for UI events
+    .label = 显示UI反馈通知
+    .tooltip = 显示UI事件的瞬态文本通知
 
 checkbox-transients-container =
-    .label = Show Game Event Notifications
-    .tooltip = Show transient text notifications for game events
+    .label = 显示游戏事件通知
+    .tooltip = 显示游戏事件的瞬态文本通知
 
-checkbox-hide-replay-chat-container = Hide Chat in Replays
-label-video-section-header = Video
-label-video-mode-dropdown-container = Video Mode:
-dropdownbutton-video-mode-dropdown-container = Windowed
-label-window-resolution-container-size = Window Size:
+checkbox-hide-replay-chat-container = 在回放中隐藏聊天
+label-video-section-header = 视频
+label-video-mode-dropdown-container = 视频模式:
+dropdownbutton-video-mode-dropdown-container = 窗口化
+label-window-resolution-container-size = 窗口大小:
 label-window-resolution-container-x = x
-label-display-selection-container = Select Display:
-dropdownbutton-display-selection-container-dropdown = Standard
-checkbox-vsync-container = Enable VSync
-checkbox-frame-limit-gamespeed-container = Limit framerate to game tick rate
-label-gl-profile-dropdown-container = OpenGL Profile:
-label-restart-required-container-video-desc = Display and OpenGL changes require restart
+label-display-selection-container = 选择显示:
+dropdownbutton-display-selection-container-dropdown = 标准
+checkbox-vsync-container = 启用VSync
+checkbox-frame-limit-gamespeed-container = 将帧率限制为游戏帧率
+label-gl-profile-dropdown-container = OpenGL配置文件:
+label-restart-required-container-video-desc = 显示和OpenGL更改需要重启
 
 ## settings-hotkeys.yaml
-hotkey-group-game-commands = Game Commands
-hotkey-group-viewport-commands = Viewport Commands
-hotkey-group-observer-replay-commands = Observer / Replay Commands
-hotkey-group-unit-commands = Unit Commands
-hotkey-group-unit-stance-commands = Unit Stance Commands
-hotkey-group-production-commands = Production Commands
-hotkey-group-support-power-commands = Support Power Commands
-hotkey-group-music-commands = Music Commands
-hotkey-group-chat-commands = Chat Commands
-hotkey-group-control-groups = Control Groups
-hotkey-group-editor-commands = Editor Commands
-label-hotkeys-panel-filter-input = Filter by name:
-label-hotkeys-panel-context-dropdown = Context:
-label-hotkey-empty-list-message = No hotkeys match the filter criteria.
-label-notices-readonly-notice = This hotkey cannot be modified
-button-hotkey-remap-dialog-override = Override
+hotkey-group-game-commands = 游戏指令
+hotkey-group-viewport-commands = 视图命令
+hotkey-group-observer-replay-commands = 观察者/重放命令
+hotkey-group-unit-commands = 单位命令
+hotkey-group-unit-stance-commands = 单位姿态命令
+hotkey-group-production-commands = 生产命令
+hotkey-group-support-power-commands = 支持电力命令
+hotkey-group-music-commands = 音乐命令
+hotkey-group-chat-commands = 聊天命令
+hotkey-group-control-groups = 控制群组
+hotkey-group-editor-commands = 编辑器命令
+label-hotkeys-panel-filter-input = 按名称过滤:
+label-hotkeys-panel-context-dropdown = 上下文:
+label-hotkey-empty-list-message = 没有热键符合过滤条件。
+label-notices-readonly-notice = 此热键无法修改
+button-hotkey-remap-dialog-override = 覆盖
 
 button-hotkey-remap-dialog-clear =
-    .label = Clear
-    .tooltip = Unbind the hotkey
-
+    .label = 清除
+    .tooltip = 解绑热键
 button-hotkey-remap-dialog-reset =
-    .label = Reset
-    .tooltip = Reset to default
+    .label = 重置
+    .tooltip = 重置为默认
 
 ## settings-input.yaml
-label-zoom-modifier-container = Zoom Modifier:
-checkbox-alternate-scroll-container = Alternate Mouse Panning
-checkbox-lockmouse-container = Lock Mouse to Window
-label-mouse-scroll-type-container = Pan Behaviour:
-label-scrollspeed-slider-container-scroll-speed = Pan Speed:
-label-zoomspeed-slider-container-zoom-speed = Zoom Speed:
-label-ui-scrollspeed-slider-container-scroll-speed = UI Scroll Speed:
+label-zoom-modifier-container = 缩放修饰键:
+checkbox-alternate-scroll-container = 备用鼠标平移
+checkbox-lockmouse-container = 锁定鼠标到窗口
+label-mouse-scroll-type-container = 平移行为:
+label-scrollspeed-slider-container-scroll-speed = 平移速度:
+label-zoomspeed-slider-container-zoom-speed = 缩放速度:
+label-ui-scrollspeed-slider-container-scroll-speed = UI滚动速度:
 
 ## settings.yaml
-button-settings-panel-reset = Reset
+button-settings-panel-reset = 重置
 
 ## tooltips.yaml
-label-latency-tooltip-prefix = Latency:
-label-anonymous-player-tooltip-name = Anonymous Player
-label-bot-player-tooltip-name = Bot
-label-bot-managed-by-tooltip = Bot managed by { $name }
-label-game-admin = Game Admin
-
+label-latency-tooltip-prefix = 延迟:
+label-anonymous-player-tooltip-name = 匿名玩家
+label-bot-player-tooltip-name = 机器人
+label-bot-managed-by-tooltip = 由 { $name } 管理的机器人
+label-game-admin = 游戏管理员

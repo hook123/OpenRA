@@ -1,12 +1,12 @@
 ## hotkeys.yaml
-hotkey-description-productiontypebuilding = Building Tab
-hotkey-description-productiontypesupport = Support Tab
-hotkey-description-productiontypeinfantry = Infantry Tab
-hotkey-description-productiontypevehicle = Vehicle Tab
-hotkey-description-productiontypeaircraft = Aircraft Tab
-hotkey-description-powerdown = Power-down mode
-hotkey-description-decreasedepthpreviewcontrast = Decrease Contrast
-hotkey-description-increasedepthpreviewcontrast = Increase Contrast
-hotkey-description-decreasedepthpreviewoffset = Decrease Offset
-hotkey-description-increasedepthpreviewoffset = Increase Offset
-hotkey-description-toggledepthpreview = Toggle Preview
+hotkey-description-productiontypebuilding = 建筑标签
+hotkey-description-productiontypesupport = 支援标签
+hotkey-description-productiontypeinfantry = 步兵标签
+hotkey-description-productiontypevehicle = 载具标签
+hotkey-description-productiontypeaircraft = 飞机标签
+hotkey-description-powerdown = 断电模式
+hotkey-description-decreasedepthpreviewcontrast = 降低对比度
+hotkey-description-increasedepthpreviewcontrast = 提高对比度
+hotkey-description-decreasedepthpreviewoffset = 降低偏移量
+hotkey-description-increasedepthpreviewoffset = 提高偏移量
+hotkey-description-toggledepthpreview = 切换预览

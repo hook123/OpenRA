@@ -1,19 +1,19 @@
 ## world
 dropdown-difficulty =
-    .label = Difficulty
-    .description = The difficulty of the mission
+    .label = 难度
+    .description = 任务难度
 
 options-difficulty =
-    .easy = Easy
-    .normal = Normal
-    .hard = Hard
+    .easy = 简单
+    .normal = 普通
+    .hard = 困难
 
 ## player
 bot-campaign-ai =
-    .name = Campaign Player AI
+    .name = 战役玩家AI
 
 ## campaign-tooltips.yaml
-neutral-prefix = Neutral
+neutral-prefix = 中立
 
 ## harkonnen-05, ordos-04
-actor-outpost-modified-name = Modified Outpost
+actor-outpost-modified-name = 修改后的前哨站

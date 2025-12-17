@@ -1,12 +1,12 @@
 ## Metadata
-mod-title = Tiberian Dawn
-mod-windowtitle = OpenRA - Tiberian Dawn
+mod-title = 泰伯利亚黎明
+mod-windowtitle = OpenRA -泰伯利亚黎明
 
 ## CncLoadScreen
-loadscreen-loading = Loading
+loadscreen-loading = 加载中
 
 ## Tilesets
-tileset-desert = Desert
-tileset-snow = Snow
-tileset-temperat = Temperate
-tileset-winter = Winter
+tileset-desert = 沙漠
+tileset-snow = 雪地
+tileset-temperat = 温带
+tileset-winter = 冬季

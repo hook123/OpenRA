@@ -1,12 +1,11 @@
 modcontent-installprompt =
-    Dune 2000 requires artwork and audio from the original game.
+    《沙丘2000》需要原版游戏的美术资源和音频。
 
-    Quick Install will automatically download this content (without music or videos) from an online mirror of the game files.
+    快速安装将自动从游戏文件的在线镜像下载此内容（不含音乐或视频）。
 
-    Advanced Install includes options for copying the music, videos, and other content from an original game disc.
-modcontent-header =
-    The original game content may be copied from an original game disc, or downloaded from an online mirror of the game files.
-modcontent-package-basefiles = Base Game Files
-modcontent-package-106patch = 1.06 Patch Content
-modcontent-package-music = Game Music
-modcontent-package-briefings = Campaign Briefings
+    高级安装包含从原版游戏光盘复制音乐、视频和其他内容的选项。
+modcontent-header = 原版游戏内容可以从原版游戏光盘复制，或从游戏文件的在线镜像下载。
+modcontent-package-basefiles = 基础游戏文件
+modcontent-package-106patch = 1.06补丁内容
+modcontent-package-music = 游戏音乐
+modcontent-package-briefings = 战役简报

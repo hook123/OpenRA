@@ -1,12 +1,11 @@
 modcontent-installprompt =
-    Tiberian Sun requires artwork and audio from the original game.
+    《泰伯利亚之日》需要原版游戏的美术资源和音频。
 
-    Quick Install will automatically download this content (without music or videos) from a mirror of the 2012 Tiberian Sun freeware release.
+    快速安装将自动从2012年《泰伯利亚之日》免费版发布的镜像下载此内容（不含音乐或视频）。
 
-    Advanced Install includes options for copying the music, videos, and other content from an original game disc or digital installation.
-modcontent-header =
-    Game content may be extracted from the original game discs or an existing digital install. OpenRA can also download the base game files from an online mirror of the 2012 freeware release of TS.
-modcontent-package-basefiles = Base Game Files
-modcontent-package-basemusic = Base Game Music
-modcontent-package-firestormfiles = Firestorm Expansion Files
-modcontent-package-firestormmusic = Firestorm Expansion Music
+    高级安装包含从原版游戏光盘或数字安装复制音乐、视频和其他内容的选项。
+modcontent-header = 游戏内容可从原版游戏光盘或现有数字安装中提取。OpenRA也可以从2012年TS免费版发布的在线镜像下载基础游戏文件。
+modcontent-package-basefiles = 基础游戏文件
+modcontent-package-basemusic = 基础游戏音乐
+modcontent-package-firestormfiles = 《烈火风暴》扩展包文件
+modcontent-package-firestormmusic = 《烈火风暴》扩展包音乐

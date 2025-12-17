@@ -1,865 +1,857 @@
 ## Buttons
-button-cancel = Cancel
-button-retry = Retry
-button-back = Back
-button-continue = Continue
-button-quit = Quit
+button-cancel = 取消
+button-retry = 重试
+button-back = 返回
+button-continue = 继续
+button-quit = 退出
 
 ## Server Orders
-notification-custom-rules = This map contains custom rules. Game experience may change.
-notification-map-bots-disabled = Bots have been disabled on this map.
-notification-two-humans-required = This server requires at least two human players to start a match.
-notification-unknown-server-command = Unknown server command: { $command }.
-notification-admin-start-game = Only the host can start the game.
-notification-no-start-until-required-slots-full = Unable to start the game until required slots are full.
-notification-no-start-without-players = Game cannot start without players.
-notification-insufficient-enabled-spawn-points = Unable to start the game until more spawn points are enabled.
-notification-malformed-command = Malformed { $command } command.
-notification-state-unchanged-ready = Cannot change state when marked as ready.
-notification-invalid-faction-selected = Invalid faction selected: { $faction }.
-notification-state-unchanged-game-started = State cannot be changed once the game has started ({ $command }).
-notification-requires-host = Only the host can do that.
-notification-invalid-bot-slot = Cannot add bots to a slot with another client.
-notification-invalid-bot-type = Invalid bot type.
-notification-admin-change-map = Only the host can change the map.
-notification-player-disconnected = { $player } has disconnected.
-notification-team-player-disconnected = { $player } (Team { $team }) has disconnected.
-notification-observer-disconnected = { $player } (Spectator) has disconnected.
-notification-unknown-map = Map was not found on server.
-notification-searching-map = Searching for map on the Resource Center...
-notification-admin-change-configuration = Only the host can change the configuration.
-notification-changed-map = { $player } changed the map to { $map }.
-notification-option-changed = { $player } changed { $name } to { $value }.
-notification-you-were-kicked = You have been kicked from the server.
-notification-admin-kicked = { $admin } kicked { $player } from the server.
-notification-kicked = { $player } was kicked from the server.
-notification-temp-ban = { $admin } temporarily banned { $player } from the server.
-notification-admin-transfer-admin = Only admins can transfer admin to another player.
-notification-admin-move-spectators = Only the host can move players to spectators.
-notification-empty-slot = No one in that slot.
-notification-move-spectators = { $admin } moved { $player } to spectators.
-notification-nick-changed = { $player } is now known as { $name }.
-notification-player-dropped = A player has been dropped after timing out.
-notification-connection-problems = { $player } is experiencing connection problems.
-notification-timeout-dropped = { $player } has been dropped after timing out.
+notification-custom-rules = 此地图包含自定义规则。游戏体验可能发生变化。
+notification-map-bots-disabled = 此地图上已禁用机器人。
+notification-two-humans-required = 此服务器需要至少两名人类玩家才能开始比赛。
+notification-unknown-server-command = 未知服务器命令：{ $command }
+notification-admin-start-game = 只有主持人可以开始游戏。
+notification-no-start-until-required-slots-full = 在所需插槽满之前无法开始游戏。
+notification-no-start-without-players = 如果没有玩家，则无法开始游戏。
+notification-insufficient-enabled-spawn-points = 在启用更多重生点之前无法开始游戏。
+notification-malformed-command = 格式错误的 { $command } 命令
+notification-state-unchanged-ready = 标记为就绪时无法更改状态。
+notification-invalid-faction-selected = 选择了无效的派系：{ $faction }
+notification-state-unchanged-game-started = 游戏开始后无法更改状态。({ $command })
+notification-requires-host = 只有主持人可以这样做。
+notification-invalid-bot-slot = 无法向已有另一个客户端的插槽添加机器人。
+notification-invalid-bot-type = 无效的机器人类型。
+notification-admin-change-map = 只有主持人可以更改地图。
+notification-player-disconnected = { $player } 已断开连接。
+notification-team-player-disconnected = { $player } (队伍 { $team }) 已断开连接。
+notification-observer-disconnected = { $player } (观众) 已断开连接。
+notification-unknown-map = 服务器上未找到该地图。
+notification-searching-map = 正在资源中心搜索地图...
+notification-admin-change-configuration = 只有主持人可以更改配置。
+notification-changed-map = { $player } 将地图更改为 { $map }
+notification-option-changed = { $player } 将 { $name } 更改为 { $value }.
+notification-you-were-kicked = 您已被从服务器中踢出。
+notification-admin-kicked = { $admin } 将 { $player } 从服务器中踢出。
+notification-kicked = { $player } 被从服务器中踢出。
+notification-temp-ban = { $admin } 暂时禁止 { $player } 进入服务器。
+notification-admin-transfer-admin = 只有管理员才能将管理员权限转让给另一名玩家。
+notification-admin-move-spectators = 只有主持人才能将玩家移至观众席。
+notification-empty-slot = 该插槽中无人。
+notification-move-spectators = { $admin } 将 { $player } 移至观众席。
+notification-nick-changed = { $player } 现在称为 { $name }.
+notification-player-dropped = 一名玩家因超时而被剔除。
+notification-connection-problems = { $player } 正在遇到连接问题。
+notification-timeout-dropped = { $player } 因超时而被剔除。
 notification-timeout-dropped-in =
     { $timeout ->
-        [one] { $player } will be dropped in { $timeout } second.
-       *[other] { $player } will be dropped in { $timeout } seconds.
+        [one] { $player } 将在 { $timeout } 秒后剔除。
+       *[other] { $player } 将在 { $timeout } 秒后剔除.
     }
-notification-error-game-started = The game has already started.
-notification-requires-password = Server requires a password.
-notification-incorrect-password = Incorrect password.
-notification-incompatible-mod = Server is running an incompatible mod.
-notification-incompatible-version = Server is running an incompatible version.
-notification-incompatible-protocol = Server is running an incompatible protocol.
-notification-you-were-banned = You have been banned from the server.
-notification-you-were-temp-banned = You have been temporarily banned from the server.
-notification-game-full = The game is full.
-notification-new-admin = { $player } is now the admin.
-notification-option-locked = { $option } cannot be changed.
-notification-invalid-configuration-command = Invalid configuration command.
-notification-admin-option = Only the host can set that option.
-notification-error-number-teams = Could not parse the number of teams: { $raw }.
-notification-admin-kick = Only the host can kick players.
-notification-kick-self = The host cannot kick themselves.
-notification-kick-none = No one in that slot.
-notification-no-kick-game-started = Only spectators and defeated players can be kicked after the game has started.
-notification-admin-clear-spawn = Only admins can clear spawn points.
-notification-spawn-occupied = You cannot occupy the same spawn point as another player.
-notification-spawn-locked = The spawn point is locked to another player slot.
-notification-admin-lobby-info = Only the host can set lobby info.
-notification-invalid-lobby-info = Invalid lobby info sent.
-notification-player-color-terrain = Color was adjusted to be less similar to the terrain.
-notification-player-color-player = Color was adjusted to be less similar to another player.
-notification-invalid-player-color = Unable to determine a valid player color. A random color has been selected.
-notification-invalid-error-code = Failed to parse error message.
-notification-master-server-connected = Master server communication established.
-notification-master-server-error = Master server communication failed.
-notification-game-offline = Game has not been advertised online.
-notification-no-port-forward = Server port is not accessible from the internet.
-notification-blacklisted-server-name = Server name contains a blacklisted word.
-notification-requires-authentication = Server requires players to have an OpenRA forum account.
-notification-no-permission-to-join = You do not have permission to join this server.
-notification-slot-closed = Your slot was closed by the host.
+notification-error-game-started = 游戏已经开始。
+notification-requires-password = 服务器需要密码。
+notification-incorrect-password = 密码错误。
+notification-incompatible-mod = 服务器正在运行不兼容的模组。
+notification-incompatible-version = 服务器正在运行不兼容的版本。
+notification-incompatible-protocol = 服务器正在运行不兼容的协议。
+notification-you-were-banned = 您已被禁止进入服务器。
+notification-you-were-temp-banned = 您已被暂时禁止进入服务器。
+notification-game-full = 游戏已满。
+notification-new-admin = { $player } 现在是管理员。
+notification-option-locked = 无法更改{ $option }
+notification-invalid-configuration-command = 无效的配置命令。
+notification-admin-option = 只有主持人可以设置该选项。
+notification-error-number-teams = 无法解析队伍数量：{ $raw }
+notification-admin-kick = 只有主持人可以踢出玩家。
+notification-kick-self = 主持人无法将自己踢出。
+notification-kick-none = 该插槽中无人。
+notification-no-kick-game-started = 游戏开始后，只能踢出观众和失败的玩家。
+notification-admin-clear-spawn = 只有管理员才能清除重生点。
+notification-spawn-occupied = 您无法占据与其他玩家相同的重生点。
+notification-spawn-locked = 重生点已锁定到另一个玩家插槽。
+notification-admin-lobby-info = 只有主持人可以设置大厅信息。
+notification-invalid-lobby-info = 发送了无效的大厅信息。
+notification-player-color-terrain = 颜色已调整，以减少与地形的相似性。
+notification-player-color-player = 颜色已调整，以减少与另一名玩家的相似性。
+notification-invalid-player-color = 无法确定有效的玩家颜色。已选择随机颜色。
+notification-invalid-error-code = 无法解析错误消息。
+notification-master-server-connected = 已建立与主服务器的通信。
+notification-master-server-error = “与主服务器的通信失败。”
+notification-game-offline = 游戏未在线宣传。
+notification-no-port-forward = 服务器端口无法从互联网访问。
+notification-blacklisted-server-name = 服务器名称包含黑名单中的词汇。
+notification-requires-authentication = 服务器要求玩家拥有OpenRA论坛帐户。
+notification-no-permission-to-join = 您没有权限加入此服务器。
+notification-slot-closed = 您的插槽已被主持人关闭。
 
 ## LobbySettingsNotification
-notification-lobby-option = { $name }: { $value }.
+notification-lobby-option = { $name }: { $value }
 
 ## ServerOrders, UnitOrders
-notification-joined = { $player } has joined the game.
-notification-lobby-disconnected = { $player } has left.
+notification-joined = { $player }已加入游戏。
+notification-lobby-disconnected = { $player }已离开。
 
 ## UnitOrders
-notification-game-has-started = The game has started.
-notification-game-saved = Game saved.
-notification-game-paused = The game has been paused by { $player }.
-notification-game-unpaused = The game has been un-paused by { $player }.
+notification-game-has-started = 游戏已开始。
+notification-game-saved = 游戏已保存。
+notification-game-paused = 游戏已被{ $player }暂停
+notification-game-unpaused = 游戏已被{ $player }取消暂停
 
 ## Server
-notification-game-started = Game started.
+notification-game-started = 游戏开始
 
 ## PlayerMessageTracker
 notification-chat-temp-disabled =
     { $remaining ->
-        [one] Chat is disabled. Please try again in { $remaining } second.
-       *[other] Chat is disabled. Please try again in { $remaining } seconds.
+        [one] 聊天已禁用。请 { $remaining } 秒后再试。
+       *[other] 聊天已禁用。请{ $remaining }秒后再试。
     }
 
 ## VoteKickTracker
-notification-unable-to-start-a-vote = Unable to start a vote.
-notification-insufficient-votes-to-kick = Insufficient votes to kick player { $kickee }.
-notification-kick-already-voted = You have already voted.
-notification-vote-kick-started = Player { $kicker } has started a vote to kick player { $kickee }.
-notification-vote-kick-in-progress = { $percentage }% of players have voted to kick player { $kickee }.
-notification-vote-kick-ended = Vote to kick player { $kickee } has failed.
+notification-unable-to-start-a-vote = 无法开始投票。
+notification-insufficient-votes-to-kick = 投票踢出玩家 { $kickee } 的票数不足。
+notification-kick-already-voted = 您已经投过票。
+notification-vote-kick-started = 玩家 { $kicker } 已发起投票以踢出玩家 { $kickee } 。
+notification-vote-kick-in-progress = { $percentage }%的玩家已投票踢出玩家 { $kickee }。
+notification-vote-kick-ended = 投票踢出玩家 { $kickee } 失败。
 
 ## ActorEditLogic
-label-duplicate-actor-id = Duplicate Actor ID
-label-actor-id = Enter an Actor ID
-label-actor-owner = Owner
+label-duplicate-actor-id = 重复的Actor ID
+label-actor-id = 输入Actor ID
+label-actor-owner = 所有者
 
 ## ActorSelectorLogic
-label-actor-type = Type: { $actorType }
+label-actor-type = 类型：{ $actorType }
 
 ## CommonSelectorLogic
 options-common-selector =
-    .search-results = Search Results
-    .all = All
-    .multiple = Multiple
-    .none = None
+    .search-results = 搜索结果
+    .all = 全部
+    .multiple = 多个
+    .none = 无
 
 ## SaveMapLogic
-label-unpacked-map = unpacked
+label-unpacked-map = 未打包
 
 dialog-save-map-failed =
-    .title = Failed to save map
-    .prompt = See debug.log for details.
-    .confirm = OK
+    .title = 保存地图失败
+    .prompt = 查看debug.log以获取详细信息。
+    .confirm = 确定
 
 dialog-overwrite-map-failed =
-    .title = Warning
-    .prompt = By saving you will overwrite
-    an already existing map.
-    .confirm = Save
+    .title = 警告
+    .prompt = 保存将覆盖一个已存在的地图。
+    .confirm = 保存
 
 dialog-overwrite-map-outside-edit =
-    .title = Warning
-    .prompt = The map has been edited from outside the editor.
-    By saving you may overwrite progress.
-    .confirm = Save
+    .title = 警告
+    .prompt = 地图已在编辑器外部编辑。保存可能会覆盖进度
+    .confirm = 保存
 
-notification-save-current-map = Saved current map.
+notification-save-current-map = 已保存当前地图。
 
 ## GameInfoLogic
 menu-game-info =
-    .objectives = Objectives
-    .briefing = Briefing
-    .options = Options
-    .debug = Debug
-    .chat = Chat
+    .objectives = 目标
+    .briefing = 简报
+    .options = 选项
+    .debug = 调试
+    .chat = 对话
 
 ## GameInfoObjectivesLogic, GameInfoStatsLogic
-label-mission-in-progress = In progress
-label-mission-accomplished = Accomplished
-label-mission-failed = Failed
+label-mission-in-progress = 进行中
+label-mission-accomplished = 已完成
+label-mission-failed = 失败
 
 ## GameInfoStatsLogic
-label-mute-player = Mute this player
-label-unmute-player = Unmute this player
-button-kick-player = Kick this player
-button-vote-kick-player = Vote to kick this player
+label-mute-player = 静音此玩家
+label-unmute-player = 取消静音此玩家
+button-kick-player = 踢出此玩家
+button-vote-kick-player = 投票踢出此玩家
 
 dialog-kick =
-    .title = Kick { $player }?
-    .prompt = This player will not be able to rejoin the game.
-    .confirm = Kick
+    .title = 踢出 { $player }？
+    .prompt = 此玩家将无法重新加入游戏。
+    .confirm = 踢出
 
 dialog-vote-kick =
-    .title = Vote to kick { $player }?
-    .prompt = This player will not be able to rejoin the game.
+    .title = 投票踢出 { $player } ？
+    .prompt = 此玩家将无法重新加入游戏。
     .prompt-break-bots =
     { $bots ->
-        [one] Kicking the game admin will also kick 1 bot.
-       *[other] Kicking the game admin will also kick { $bots } bots.
+        [one] 踢出游戏管理员也将踢出 1 个机器人。
+       *[other] 踢出游戏管理员也将踢出 { $bots } 个机器人。
     }
-    .vote-start = Start Vote
-    .vote-for = Vote For
-    .vote-against = Vote Against
-    .vote-cancel = Abstain
+    .vote-start = 开始投票
+    .vote-for = 赞成
+    .vote-against = 反对
+    .vote-cancel = 弃权
 
-notification-vote-kick-disabled = Vote kick is disabled on this server.
+notification-vote-kick-disabled = 此服务器上禁用了投票踢出功能。
 
 ## GameTimerLogic
-label-paused = Paused
-label-max-speed = Max Speed
-label-replay-speed = { $percentage }% Speed
-label-replay-complete = { $percentage }% complete
+label-paused = 已暂停
+label-max-speed = 最大速度
+label-replay-speed = { $percentage }% 速度
+label-replay-complete = { $percentage }% 完成
 
 ## LobbyLogic, InGameChatLogic
-label-chat-disabled = Chat Disabled
+label-chat-disabled = 聊天已禁用
 label-chat-availability =
     { $seconds ->
-        [one] Chat available in { $seconds } second...
-       *[other] Chat available in { $seconds } seconds...
+        [one] 聊天将在 { $seconds } 秒后可用...
+       *[other] 聊天将在 { $seconds } 秒后可用...
     }
 
 ## LobbyLogic, ServerListLogic
-label-bot-player = AI Player
+label-bot-player = AI玩家
 
 ## IngameMenuLogic
 menu-ingame =
-    .leave = Leave
-    .abort = Abort Mission
-    .restart = Restart
-    .surrender = Surrender
-    .load-game = Load Game
-    .save-game = Save Game
-    .music = Music
-    .settings = Settings
-    .return-to-map = Return to map
-    .resume = Resume
-    .save-map = Save Map
-    .exit-map = Exit Map Editor
+    .leave = 离开
+    .abort = 放弃任务
+    .restart = 重新开始
+    .surrender = 投降
+    .load-game = 加载游戏
+    .save-game = 保存游戏
+    .music = 音乐
+    .settings = 设置
+    .return-to-map = 返回地图
+    .resume = 继续
+    .save-map = 保存地图
+    .exit-map = 退出地图编辑器
 
 dialog-leave-mission =
-    .title = Leave Mission
-    .prompt = Leave this game and return to the menu?
-    .confirm = Leave
-    .cancel = Stay
+    .title = 离开任务
+    .prompt = 离开游戏并返回菜单？
+    .confirm = 离开
+    .cancel = 留下
 
 dialog-restart-mission =
-    .title = Restart
-    .prompt = Are you sure you want to restart?
-    .confirm = Restart
-    .cancel = Stay
+    .title = 重新开始
+    .prompt = 您确定要重新开始吗？
+    .confirm = 重新开始
+    .cancel = 留下
 
 dialog-surrender =
-    .title = Surrender
-    .prompt = Are you sure you want to surrender?
-    .confirm = Surrender
-    .cancel = Stay
+    .title = 投降
+    .prompt = 您确定要投降吗？
+    .confirm = 投降
+    .cancel = 留下
 
 dialog-error-max-player =
-    .title = Error: Max player count exceeded
-    .prompt = There are too many players defined ({ $players }/{ $max }).
-    .confirm = Back
+    .title = 错误：玩家人数超限
+    .prompt = 定义的玩家过多（({ $players }/{ $max })。
+    .confirm = 返回
 
 dialog-exit-map-editor =
-    .title = Exit Map Editor
-    .prompt-unsaved = Exit and lose all unsaved changes?
-    .prompt-deleted = The map may have been deleted outside the editor
-    .confirm-anyway = Exit anyway
-    .confirm = Exit
+    .title = 退出地图编辑器
+    .prompt-unsaved = 退出并丢失所有未保存的更改？
+    .prompt-deleted = 地图可能已在编辑器外部被删除。
+    .confirm-anyway = 无论如何退出
+    .confirm = 退出
 
 dialog-play-map-warning =
-    .title = Warning
-    .prompt = The map may have been deleted or contains
-    errors that prevent it from being loaded.
-    .cancel = Okay
+    .title = 警告
+    .prompt = 地图可能已被删除或存在阻止其加载的错误。
+    .cancel = 确定
 
 dialog-exit-to-map-editor =
-    .title = Leave Mission
-    .prompt = Leave this game and return to the editor?
-    .confirm = Back To Editor
-    .cancel = Stay
+    .title = 离开任务
+    .prompt = 离开游戏并返回编辑器？
+    .confirm = 返回编辑器
+    .cancel = 留下
 
 ## IngamePowerBarLogic
 ## IngamePowerCounterLogic
-label-power-usage = Power Usage: { $usage }/{ $capacity }
-label-infinite-power = Infinite
+label-power-usage = 电量使用：{ $usage }/{ $capacity }
+label-infinite-power = 无限
 
 ## IngameSiloBarLogic
 ## IngameCashCounterLogic
-label-silo-usage = Silo Usage: { $usage }/{ $capacity }
+label-silo-usage = 筒仓使用：{ $usage }/{ $capacity }
 
 ## ObserverShroudSelectorLogic
 options-shroud-selector =
-    .all-players = All Players
-    .disable-shroud = Disable Shroud
-    .other = Other
+    .all-players = 所有玩家
+    .disable-shroud = 禁用迷雾
+    .other = 其他
 
 ## ObserverStatsLogic
 options-observer-stats =
-    .none = Information: None
-    .basic = Basic
-    .economy = Economy
-    .production = Production
-    .support-powers = Support Powers
-    .combat = Combat
-    .army = Army
-    .earnings-graph = Earnings (graph)
-    .army-graph = Army (graph)
+    .none = 信息：无
+    .basic = 基本
+    .economy = 经济
+    .production = 生产
+    .support-powers = 支援力量
+    .combat = 战斗
+    .army = 军队
+    .earnings-graph = 收入（图表）
+    .army-graph = 军队（图表）
 
 ## WorldTooltipLogic
-label-unrevealed-terrain = Unrevealed Terrain
+label-unrevealed-terrain = 未探索的地形
 
 ## KickClientLogic
 dialog-kick-client =
-    .prompt = Kick { $player }?
+    .prompt = 踢出 { $player }?
 
 ## KickSpectatorsLogic
 dialog-kick-spectators =
     .prompt =
     { $count ->
-        [one] Are you sure you want to kick one spectator?
-       *[other] Are you sure you want to kick { $count } spectators?
+        [one] 您确定要踢出一个观众吗？
+       *[other] 您确定要踢出 { $count }  个观众吗？
     }
 
 ## LobbyLogic
 options-slot-admin =
-    .add-bots = Add
-    .remove-bots = Remove
-    .configure-bots = Configure Bots
-    .teams-count = { $count } Teams
-    .humans-vs-bots = Humans vs Bots
-    .free-for-all = Free for all
-    .configure-teams = Configure Teams
+    .add-bots = 添加
+    .remove-bots = 移除
+    .configure-bots = 配置机器人
+    .teams-count = { $count } 队
+    .humans-vs-bots = 人类对战机器人
+    .free-for-all = 自由混战
+    .configure-teams = 配置队伍
 
 ## LobbyLogic, InGameChatLogic
-button-general-chat = All
-button-team-chat = Team
+button-general-chat = 全局
+button-team-chat = 队伍
 
 ## LobbyOptionsLogic, MissionBrowserLogic
-label-not-available = Not Available
+label-not-available = 不可用
 
 ## LobbyUtils
 options-lobby-slot =
-    .slot = Slot
-    .open = Open
-    .closed = Closed
-    .bots = Bots
-    .bots-disabled = Bots Disabled
+    .slot = 槽位
+    .open = 开放
+    .closed = 关闭
+    .bots = 机器人
+    .bots-disabled = 机器人已禁用
 
 ## MapPreviewLogic
-label-connecting = Connecting...
-label-downloading-map = Downloading { $size } kB
-label-downloading-map-progress = Downloading { $size } kB ({ $progress }%)
-button-retry-install = Retry Install
-button-retry-search = Retry Search
+label-connecting = 正在连接...
+label-downloading-map = 正在下载 { $size } kB
+label-downloading-map-progress = 正在下载 { $size } kB（{ $progress }%）
+button-retry-install = 重试安装
+button-retry-search = 重试搜索
+
 ## also MapChooserLogic
-label-created-by = Created by { $author }
+label-created-by = 由 { $author } 创建
 
 ## SpawnSelectorTooltipLogic
-label-disabled-spawn = Disabled spawn
-label-available-spawn = Available spawn
+label-disabled-spawn = 禁用的出生点
+label-available-spawn = 可用的出生点
 
 ## DisplaySettingsLogic
 options-camera =
-    .close = Close
-    .medium = Medium
-    .far = Far
-    .furthest = Furthest
+    .close = 关闭
+    .medium = 中等
+    .far = 远
+    .furthest = 最远
 
 options-display-mode =
-    .windowed = Windowed
-    .legacy-fullscreen = Fullscreen (Legacy)
-    .fullscreen = Fullscreen
+    .windowed = 窗口模式
+    .legacy-fullscreen = 全屏（旧版）
+    .fullscreen = 全屏
 
-label-video-display-index = Display { $number }
+label-video-display-index = 显示 { $number }
 
 options-status-bars =
-    .standard = Standard
-    .show-on-damage = Show On Damage
-    .always-show = Always Show
+    .standard = 标准
+    .show-on-damage = 受伤时显示
+    .always-show = 始终显示
 
 options-target-lines =
-    .automatic = Automatic
-    .manual = Manual
-    .disabled = Disabled
+    .automatic = 自动
+    .manual = 手动
+    .disabled = 禁用
 
-checkbox-frame-limiter = Enable Frame Limiter ({ $fps } FPS)
+checkbox-frame-limiter = 启用帧率限制器（{ $fps } FPS）
 
 ## HotkeysSettingsLogic
-label-original-notice = The default is "{ $key }"
-label-duplicate-notice = This is already used for "{ $key }" in the { $context } context
-hotkey-context-any = Any
+label-original-notice = 默认是"{ $key }"
+label-duplicate-notice = 这在 { $context }  上下文中已用于"{ $key }"
+hotkey-context-any = 所有
 
 ## GameplaySettingsLogic
 auto-save-interval =
-    .disabled = Disabled
+    .disabled = 已禁用
     .options =
         { $seconds ->
-            [one] 1 second
-           *[other] { $seconds } seconds
+            [one] 1 秒
+           *[other] { $seconds } 秒
         }
     .minute-options =
         { $minutes ->
-            [one] 1 minute
-           *[other] { $minutes } minutes
+            [one] 1 分钟
+           *[other] { $minutes } 分钟
         }
 
-auto-save-max-file-number = { $saves } saves
+auto-save-max-file-number = { $saves } 个保存
 
 ## InputSettingsLogic
 options-mouse-scroll-type =
-    .disabled = Disabled
-    .standard = Standard
-    .inverted = Inverted
-    .joystick = Joystick
+    .disabled = 禁用
+    .standard = 标准
+    .inverted = 反转
+    .joystick = 摇杆
 
 ## InputSettingsLogic, IntroductionPromptLogic
 options-control-scheme =
-    .classic = Classic
-    .modern = Modern
+    .classic = 经典
+    .modern = 现代
 
 ## SettingsLogic
 dialog-settings-save =
-    .title = Restart Required
-    .prompt = Some changes will not be applied until
-    the game is restarted.
-    .cancel = Continue
+    .title = 需要重启
+    .prompt = 部分更改将在游戏重启后生效。
+    .cancel = 继续
 
 dialog-settings-restart =
-    .title = Restart Now?
-    .prompt = Some changes will not be applied until
-    the game is restarted. Restart now?
-    .confirm = Restart Now
-    .cancel = Restart Later
+    .title = 现在重启？
+    .prompt = 部分更改将在游戏重启后生效。现在重启吗？
+    .confirm = 现在重启
+    .cancel = 稍后重启
 
 dialog-settings-reset =
-    .title = Reset { $panel }
-    .prompt = Are you sure you want to reset
-    all settings in this panel?
-    .confirm = Reset
-    .cancel = Cancel
+    .title = 重置 { $panel }
+    .prompt = 您确定要重置此面板中的所有设置吗？
+    .confirm = 重置
+    .cancel = 取消
 
 ## AssetBrowserLogic
-label-all-packages = All Packages
-label-length-in-seconds = { $length } sec
+label-all-packages = 所有包
+label-length-in-seconds = { $length } 秒
 
 ## ConnectionLogic
-label-connecting-to-endpoint = Connecting to { $endpoint }...
-label-could-not-connect-to-target = Could not connect to { $target }
-label-unknown-error = Unknown error
-label-password-required = Password Required
-label-connection-failed = Connection Failed
-notification-mod-switch-failed = Failed to switch mod.
+label-connecting-to-endpoint = 正在连接到 { $endpoint }...
+label-could-not-connect-to-target = 无法连接到 { $target }
+label-unknown-error = 未知错误
+label-password-required = 需要密码
+label-connection-failed = 连接失败
+notification-mod-switch-failed = 切换模组失败。
 
 ## GameSaveBrowserLogic
 dialog-rename-save =
-    .title = Rename Save
-    .prompt = Enter a new file name:
-    .confirm = Rename
+    .title = 重命名存档
+    .prompt = 输入新的文件名：
+    .confirm = 重命名
 
 dialog-delete-save =
-    .title = Delete selected game save?
-    .prompt = Delete '{ $save }'.
-    .confirm = Delete
+    .title = 删除选定的游戏存档？
+    .prompt = 删除 '{ $save }'
+    .confirm = 删除
 
 dialog-delete-all-saves =
-    .title = Delete all game saves?
+    .title = 删除所有游戏存档？
     .prompt =
     { $count ->
-        [one] Delete { $count } save.
-       *[other] Delete { $count } saves.
+        [one] 删除 { $count } 个回放。
+       *[other] 删除 { $count } 个回放。
     }
-    .confirm = Delete All
+    .confirm = 删除全部
 
-notification-save-deletion-failed = Failed to delete save file '{ $savePath }'. See the logs for details.
+notification-save-deletion-failed = 无法删除存档文件 '{ $savePath }'。请查看日志以获取详细信息。
 
 dialog-overwrite-save =
-    .title = Overwrite saved game?
-    .prompt = Overwrite { $file }?
-    .confirm = Overwrite
+    .title = 覆盖已保存的游戏？
+    .prompt = 覆盖 { $file }？
+    .confirm = 覆盖
 
 ## MainMenuLogic
-label-loading-news = Loading news
-label-news-retrieval-failed = Failed to retrieve news: { $message }
-label-news-parsing-failed = Failed to parse news: { $message }
-label-author-datetime = by { $author } at { $datetime }
+label-loading-news = 正在加载新闻
+label-news-retrieval-failed = 无法检索新闻：{ $message }
+label-news-parsing-failed = 无法解析新闻：{ $message }
+label-author-datetime = 由 { $author } 在 { $datetime } 发布
 
 ## MapChooserLogic
-label-all-maps = All Maps
-label-no-matches = No matches
+label-all-maps = 所有地图
+label-no-matches = 没有匹配项
 label-player-count =
     { $players ->
-        [one] { $players } Player
-       *[other] { $players } Players
+        [one] { $players } 位玩家
+       *[other] { $players } 位玩家
     }
-label-map-size-huge = Huge
-label-map-size-large = Large
-label-map-size-medium = Medium
-label-map-size-small = Small
+label-map-size-huge = （巨大）
+label-map-size-large = （大）
+label-map-size-medium = （中）
+label-map-size-small = （小）
 label-map-searching-count =
     { $count ->
-        [one] Searching the OpenRA Resource Center for { $count } map...
-       *[other] Searching the OpenRA Resource Center for { $count } maps...
+        [one] 正在 OpenRA 资源中心搜索 { $count } 个地图...
+       *[other] 正在 OpenRA 资源中心搜索 { $count } 个地图...
     }
 label-map-unavailable-count =
     { $count ->
-        [one] { $count } map was not found on the OpenRA Resource Center
-       *[other] { $count } maps were not found on the OpenRA Resource Center
+        [one] 在 OpenRA 资源中心未找到 { $count } 个地图
+       *[other] 在 OpenRA 资源中心未找到 { $count } 个地图
     }
 
-notification-map-deletion-failed = Failed to delete map '{ $map }'. See the debug.log file for details.
+notification-map-deletion-failed = 无法删除地图 '{ $map }'。请查看 debug.log 文件以获取详细信息。
 
 dialog-delete-map =
-    .title = Delete map
-    .prompt = Delete the map '{ $title }'?
-    .confirm = Delete
+    .title = 删除地图
+    .prompt = 删除地图 '{ $title }'？
+    .confirm = 删除
 
 dialog-delete-all-maps =
-    .title = Delete maps
-    .prompt = Delete all maps on this page?
-    .confirm = Delete
+    .title = 删除地图
+    .prompt = 删除此页面上的所有地图？
+    .confirm = 删除
 
 options-order-maps =
-    .player-count = Players
-    .title = Title
-    .date = Date
-    .size = Size
+    .player-count = 玩家数
+    .title = 标题
+    .date = 日期
+    .size = 大小
 
-button-mapchooser-system-maps-tab = Official Maps
-button-mapchooser-remote-maps-tab = Server Maps
-button-mapchooser-user-maps-tab = Custom Maps
-button-mapchooser-generated-maps-tab = Generate Map
+button-mapchooser-system-maps-tab = 官方地图
+button-mapchooser-remote-maps-tab = 服务器地图
+button-mapchooser-user-maps-tab = 自定义地图
+button-mapchooser-generated-maps-tab = 生成地图
 
 ## MissionBrowserLogic
 dialog-no-video =
-    .title = Video not installed
-    .prompt = The game videos can be installed from the
-    "Manage Content" menu in the mod chooser.
-    .cancel = Back
+    .title = 视频未安装
+    .prompt = 可以在模组选择器的“管理内容”菜单中安装游戏视频。
+    .cancel = 返回
 
 dialog-cant-play-video =
-    .title = Unable to play video
-    .prompt = Something went wrong during video playback.
-    .cancel = Back
+    .title = 无法播放视频
+    .prompt = 视频播放时出现问题。
+    .cancel = 返回
 
 ## MusicPlayerLogic
-label-sound-muted = Audio has been muted in settings.
-label-no-song-playing = No song is playing
+label-sound-muted = 已在设置中静音。
+label-no-song-playing = 当前无歌曲播放
 
 ## MuteHotkeyLogic
-label-audio-muted = Audio muted.
-label-audio-unmuted = Audio unmuted.
+label-audio-muted = 已静音。
+label-audio-unmuted = 已取消静音。
 
 ## PlayerProfileLogic
-label-loading-player-profile = Loading player profile...
-label-loading-player-profile-failed = Failed to load player profile.
+label-loading-player-profile = 正在加载玩家档案...
+label-loading-player-profile-failed = 加载玩家档案失败。
 
 ## ProductionTooltipLogic, EncyclopediaLogic
-label-requires = Requires { $prerequisites }.
+label-requires = 需要 { $prerequisites }。
 
 ## ReplayBrowserLogic
-label-duration = Duration: { $time }
+label-duration = 时长：{ $time }
 
 options-replay-type =
-    .singleplayer = Singleplayer
-    .multiplayer = Multiplayer
+    .singleplayer = 单人
+    .multiplayer = 多人
 
 options-winstate =
-    .victory = Victory
-    .defeat = Defeat
+    .victory = 胜利
+    .defeat = 失败
 
 options-replay-date =
-    .today = Today
-    .last-week = Last 7 days
-    .last-fortnight = Last 14 days
-    .last-month = Last 30 days
+    .today = 今天
+    .last-week = 过去 7 天
+    .last-fortnight = 过去 14 天
+    .last-month = 过去 30 天
 
 options-replay-duration =
-    .very-short = Under 5 min
-    .short = Short (10 min)
-    .medium = Medium (30 min)
-    .long = Long (60+ min)
+    .very-short = 少于 5 分钟
+    .short = 短（10 分钟）
+    .medium = 中（30 分钟）
+    .long = 长（60+ 分钟）
 
 dialog-rename-replay =
-    .title = Rename Replay
-    .prompt = Enter a new file name:
-    .confirm = Rename
+    .title = 重命名回放
+    .prompt = 输入新的文件名：
+    .confirm = 重命名
 
 dialog-delete-replay =
-    .title = Delete selected replay?
-    .prompt = Delete replay { $replay }?
-    .confirm = Delete
+    .title = 删除选定的回放？
+    .prompt = 删除回放 { $replay }？
+    .confirm = 删除
 
 dialog-delete-all-replays =
-    .title = Delete all selected replays?
+    .title = 删除所有选定的回放？
     .prompt =
     { $count ->
-        [one] Delete { $count } replay.
-       *[other] Delete { $count } replays.
+        [one] 删除 { $count } 个回放。
+       *[other] 删除 { $count } 个回放。
     }
-    .confirm = Delete All
+    .confirm = 删除全部
 
-notification-replay-deletion-failed = Failed to delete replay file '{ $file }'. See the debug.log file for details.
+notification-replay-deletion-failed = 无法删除回放文件 '{ $file }'。请查看 debug.log 文件以获取详细信息。
 
 ## ReplayUtils
--incompatible-replay-recorded = It was recorded with
+-incompatible-replay-recorded = 录制时使用的
 
 dialog-incompatible-replay =
-    .title = Incompatible Replay
-    .prompt = Replay metadata could not be read.
-    .confirm = OK
-    .prompt-unknown-version = { -incompatible-replay-recorded } an unknown version.
-    .prompt-unknown-mod = { -incompatible-replay-recorded } an unknown mod.
-    .prompt-unavailable-mod = { -incompatible-replay-recorded } an unavailable mod: { $mod }.
-    .prompt-incompatible-version = { -incompatible-replay-recorded } an incompatible version:
-    { $version }.
-    .prompt-unavailable-map = { -incompatible-replay-recorded } an unavailable map:
-    { $map }.
+    .title = 不兼容的回放
+    .prompt = 无法读取回放元数据。
+    .confirm = 确定
+    .prompt-unknown-version = { -incompatible-replay-recorded } 未知版本。
+    .prompt-unknown-mod = { -incompatible-replay-recorded } 未知模组。
+    .prompt-unavailable-mod = { -incompatible-replay-recorded } 不可用的模组：{ $mod }。
+    .prompt-incompatible-version = { -incompatible-replay-recorded } 不兼容的版本： { $version }。
+    .prompt-unavailable-map = { -incompatible-replay-recorded } 不可用的地图：{ $map }。
 
 # SelectUnitsByTypeHotkeyLogic
-nothing-selected = Nothing selected.
+nothing-selected = 未选择任何单位。
 
 ## SelectUnitsByTypeHotkeyLogic, SelectAllUnitsHotkeyLogic
 selected-units-across-screen =
     { $units ->
-        [one] Selected one unit across screen.
-       *[other] Selected { $units } units across screen.
+        [one] 在屏幕上选择了一个单位。
+       *[other] 在屏幕上选择了 { $units } 个单位。
     }
 
 selected-units-across-map =
     { $units ->
-        [one] Selected one unit across map.
-       *[other] Selected { $units } units across map.
+        [one] 在地图上选择了一个单位。
+       *[other] 在地图上选择了 { $units } 个单位。
     }
 
 ## ServerCreationLogic
-label-internet-server-nat-A = Internet Server (UPnP/NAT-PMP
-label-internet-server-nat-B-enabled = Enabled
-label-internet-server-nat-B-not-supported = Not Supported
-label-internet-server-nat-B-disabled = Disabled
-label-internet-server-nat-C = ):
+label-internet-server-nat-A = 互联网服务器（UPnP/NAT-PMP
+label-internet-server-nat-B-enabled = 已启用
+label-internet-server-nat-B-not-supported = 不支持
+label-internet-server-nat-B-disabled = 已禁用
+label-internet-server-nat-C = )：
 
-label-local-server = Local Server:
+label-local-server = 本地服务器：
 
-dialog-server-creation-failed =
-    .prompt = Could not listen on port { $port }.
-    .prompt-port-used = Check if the port is already being used.
-    .prompt-error = Error is: "{ $message }" ({ $code }).
-    .title = Server Creation Failed
-    .cancel = Back
+dialog-server-creation-failed = 
+    .prompt = 无法在端口 { $port } 上监听
+    .prompt-port-used = 检查端口是否已被占用。
+    .prompt-error = 错误为：“{ $message }”（{ $code }）
+    .title = 服务器创建失败
+    .cancel = 返回
 
 ## ServerListLogic
 label-players-online-count =
     { $players ->
-        [one] { $players } Player Online
-       *[other] { $players } Players Online
+        [one] { $players } 名玩家在线
+       *[other] { $players } 名玩家在线
     }
 
-label-search-status-failed = Failed to query server list.
-label-search-status-no-games = No games found. Try changing filters.
-label-no-server-selected = No Server Selected
+label-search-status-failed = 查询服务器列表失败。
+label-search-status-no-games = 未找到游戏。尝试更改过滤器。
+label-no-server-selected = 未选择服务器
 
-label-map-status-searching = Searching...
-label-map-classification-unknown = Unknown Map
+label-map-status-searching = 正在搜索...
+label-map-classification-unknown = 未知地图
 
 label-players-count =
     { $players ->
-        [0] No Players
-        [one] One Player
-       *[other] { $players } Players
+        [0] 无玩家
+        [one] 一名玩家
+       *[other] { $players } 名玩家
     }
 
 label-bots-count =
     { $bots ->
-        [0] No Bots
-        [one] One Bot
-       *[other] { $bots } Bots
+        [0] 无机器人
+        [one] 一个机器人
+       *[other] { $bots } 个机器人
     }
 
 ## ServerListLogic, ReplayBrowserLogic, ObserverShroudSelectorLogic
-label-players = Players
+label-players = 玩家
 
 ## ServerListLogic, GameInfoStatsLogic
-label-spectators = Spectators
+label-spectators = 观众
 label-spectators-count =
     { $spectators ->
-        [0] No Spectators
-        [one] One Spectator
-       *[other] { $spectators } Spectators
+        [0] 无观众
+        [one] 一名观众
+       *[other] { $spectators } 名观众
     }
 
 ## ServerlistLogic, GameInfoStatsLogic, ObserverShroudSelectorLogic, SpawnSelectorTooltipLogic, ReplayBrowserLogic
-label-team-name = Team { $team }
-label-no-team = No Team
+label-team-name = 队伍 { $team }
+label-no-team = 无队伍
 
-label-playing = Playing
-label-waiting = Waiting
+label-playing = 游戏中
+label-waiting = 等待中
 
 label-other-players-count =
     { $players ->
-        [one] One other player
-       *[other] { $players } other players
+        [one] 另一名玩家
+       *[other] { $players } 名其他玩家
     }
 
 label-in-progress-for =
     { $minutes ->
-        [0] In progress for less than a minute.
-        [one] In progress for { $minutes } minute.
-       *[other] In progress for { $minutes } minutes.
+        [0] 进行中，不到一分钟。
+        [one] 进行中，已 { $minutes } 分钟。
+       *[other] 进行中，已 { $minutes } 分钟。
     }
 
-label-password-protected = Password protected
-label-waiting-for-players = Waiting for players
-label-server-shutting-down = Server shutting down
-label-unknown-server-state = Unknown server state
+label-password-protected = 密码保护
+label-waiting-for-players = 等待玩家
+label-server-shutting-down = 服务器正在关闭
+label-unknown-server-state = 未知服务器状态
 
 ## Game
-notification-saved-screenshot = Saved screenshot { $filename }
+notification-saved-screenshot = 已保存截图  { $filename }
 
 ## ChatCommands
-notification-invalid-command = { $name } is not a valid command.
+notification-invalid-command = { $name } 不是有效的命令。
 
 ## DebugVisualizationCommands
-description-combat-geometry = toggles combat geometry overlay.
-description-render-geometry = toggles render geometry overlay.
-description-screen-map-overlay = toggles screen map overlay.
-description-depth-buffer = toggles depth buffer overlay.
-description-actor-tags-overlay = toggles actor tags overlay.
+description-combat-geometry = 切换战斗几何图形覆盖层。
+description-render-geometry = 切换渲染几何图形覆盖层。
+description-screen-map-overlay = 切换屏幕地图覆盖层。
+description-depth-buffer = 切换深度缓冲区覆盖层。
+description-actor-tags-overlay = 切换角色标签覆盖层。
 
 ## DevCommands
-notification-cheats-disabled = Cheats are disabled.
-notification-invalid-cash-amount = Invalid cash amount.
-description-toggle-visibility = toggles visibility checks and minimap.
-description-give-cash = gives the default or specified amount of money.
-description-give-cash-all = gives the default or specified amount of money to all players and AI.
-description-instant-building = toggles instant building.
-description-build-anywhere = toggles the ability to build anywhere.
-description-unlimited-power = toggles infinite power.
-description-enable-tech = toggles the ability to build everything.
-description-fast-charge = toggles near-instant support power charging.
-description-dev-cheat-all = toggles all cheats and gives you some cash for your trouble.
-description-dev-crash = crashes the game.
-description-levelup-actor = adds a specified number of levels to the selected actors.
-description-player-experience = adds a specified amount of player experience to the owner(s) of selected actors.
-description-power-outage = causes a 5-second power outage for the owner(s) of selected actors.
-description-kill-selected-actors = kills selected actors.
-description-dispose-selected-actors = disposes selected actors.
+notification-cheats-disabled = 作弊已禁用。
+notification-invalid-cash-amount = 无效的现金数量。
+description-toggle-visibility = 切换可见性检查和小地图。
+description-give-cash = 给予默认或指定数量的金钱。
+description-give-cash-all = 给予所有玩家和AI默认或指定数量的金钱。
+description-instant-building = 切换即时建造。
+description-build-anywhere = 切换在任何地方建造的能力。
+description-unlimited-power = 切换无限电力。
+description-enable-tech = 切换建造所有内容的能力。
+description-fast-charge = 切换几乎即时的支援电力充电。
+description-dev-cheat-all = 切换所有作弊并给您一些现金作为补偿。
+description-dev-crash = 崩溃游戏。
+description-levelup-actor = 为选定的角色添加指定数量的等级。
+description-player-experience = 为选定角色的所有者添加指定数量的玩家经验。
+description-power-outage = 导致选定角色的所有者有5秒的停电。
+description-kill-selected-actors = 杀死选定的角色。
+description-dispose-selected-actors = 销毁选定的角色。
 
 ## HelpCommands
-notification-available-commands = Here are the available commands:
-description-no-description = no description available.
-description-help-description = provides useful info about various commands.
+notification-available-commands = 以下是可用的命令：
+description-no-description = 没有可用的描述。
+description-help-description = 提供有关各种命令的有用信息
 
 ## PlayerCommands
-description-pause-description = pause or unpause the game.
-description-surrender-description = self-destruct everything and lose the game.
+description-pause-description = 暂停或取消暂停游戏
+description-surrender-description = 自我毁灭一切并输掉游戏
 
 ## DeveloperMode
-notification-cheat-used = Cheat used: { $cheat } by { $player }{ $suffix }.
+notification-cheat-used = 作弊使用：{ $cheat } 由 { $player }{ $suffix }
 
 ## CustomTerrainDebugOverlay
-description-custom-terrain-debug-overlay = toggles the custom terrain debug overlay.
+description-custom-terrain-debug-overlay = 切换自定义地形调试覆盖层。
 
 ## CellTriggerOverlay
-description-cell-triggers-overlay = toggles the script triggers overlay.
+description-cell-triggers-overlay = 切换脚本触发器覆盖层。
 
 ## HierarchicalPathFinderOverlay
-description-hpf-debug-overlay = toggles the hierarchical pathfinder overlay.
+description-hpf-debug-overlay = 切换分层路径查找器覆盖层。
 
 ## PathFinderOverlay
-description-path-debug-overlay = toggles a visualization of path searching.
+description-path-debug-overlay = 切换路径搜索的可视化。
 
 ## TerrainGeometryOverlay
-description-terrain-geometry-overlay = toggles the terrain geometry overlay.
+description-terrain-geometry-overlay = 切换地形几何图形覆盖层。
 
 ## ActorMapOverlay
-description-actor-map-overlay = toggles the actor map overlay.
+description-actor-map-overlay = 切换角色地图覆盖层.
 
 ## MapOptions, MissionBrowserLogic
 options-game-speed =
-    .slowest = Slowest
-    .slower = Slower
-    .normal = Normal
-    .fast = Fast
-    .faster = Faster
-    .fastest = Fastest
+    .slowest = 最慢
+    .slower = 较慢
+    .normal = 正常
+    .fast = 较快
+    .faster = 更快
+    .fastest = 最快
 
 ## TimeLimitManager
 options-time-limit =
-    .no-limit = No limit
+    .no-limit = 无限制
     .options =
         { $minutes ->
-            [one] { $minutes } minute
-           *[other] { $minutes } minutes
+            [one] { $minutes } 分钟
+           *[other] { $minutes } 分钟
         }
 
-notification-time-limit-expired = Time limit has expired.
+notification-time-limit-expired = 时间限制已到期。
 
 ## EditorActorBrush
-notification-added-actor = Added { $name } ({ $id })
+notification-added-actor = 添加了 { $name } ({ $id })
 
 ## EditorCopyPasteBrush
-notification-copied-tiles = Copied { $tiles } tiles
-notification-copied-actors = Copied { $actors } actors
-notification-copied-tiles-actors = Copied { $tiles } tiles and { $actors } actors
+notification-copied-tiles = 已复制 { $tiles } 图块
+notification-copied-actors = 已复制 { $actors } 角色
+notification-copied-tiles-actors = 已复制 { $tiles } 图块 and { $actors } 角色
 
 ## EditorDefaultBrush
-notification-selected-area = Selected area { $x },{ $y } ({ $width },{ $height })
-notification-removed-area = Removed area { $x },{ $y } ({ $width },{ $height })
-notification-selected-actor = Selected actor { $id }
-notification-cleared-selection = Cleared selection
-notification-removed-actor = Removed { $name } ({ $id })
-notification-removed-resource = Removed { $type }
-notification-moved-actor = Moved { $id } from { $x1 },{ $y1 } to { $x2 },{ $y2 }
+notification-selected-area = 选择了区域 { $x },{ $y } ({ $width },{ $height })
+notification-removed-area = 移除区域 { $x },{ $y } ({ $width },{ $height })
+notification-selected-actor = 选择了角色 { $id }
+notification-cleared-selection = 清除了选择
+notification-removed-actor = 移除了 { $name } ({ $id })
+notification-removed-resource = 移除了 { $type }
+notification-moved-actor = 将 { $id } 从 { $x1 },{ $y1 } 移动到 { $x2 },{ $y2 }
 
 ## EditorResourceBrush
 notification-added-resource =
     { $count ->
-       [one] Added one cell of { $type }
-      *[other] Added { $count } cells of { $type }
+       [one] 已添加一个 { $type } 单元格
+      *[other] 已添加 { $count } 个 { $type } 单元格
     }
 
 ## EditorTileBrush
-notification-added-tile = Added tile { $id }
-notification-filled-tile = Filled with tile { $id }
+notification-added-tile = 添加了图块 { $id }
+notification-filled-tile = 用图块 { $id } 填充
 
 ## EditorMarkerLayerBrush
 notification-added-marker-tiles-markers =
-    .red = red
-    .orange = orange
-    .yellow = yellow
-    .green = green
-    .cyan = cyan
-    .blue = blue
-    .purple = purple
-    .magenta = magenta
+    .red = 红色
+    .orange = 橙色
+    .yellow = 黄色
+    .green = 绿色
+    .cyan = 青色
+    .blue = 蓝色
+    .purple = 紫色
+    .magenta = 洋红色
 notification-added-marker-tiles =
     { $count ->
-       [one] Added { $type } marker tile
-      *[other] Added { $count } { $type } marker tiles
+       [one] 已添加 { $type } 标记图块
+      *[other] 已添加 { $count } 个 { $type } 标记图块
     }
 notification-removed-marker-tiles =
     { $count ->
-       [one] Removed marker tile
-      *[other] Removed { $count } marker tiles
+       [one] 已移除标记图块
+      *[other] 已移除 { $count } 个标记图块
     }
 notification-cleared-selected-marker-tiles =
     { $count ->
-       [one] Cleared { $type } marker tile
-      *[other] Cleared { $count } { $type } marker tiles
+       [one] 已清除 { $type } 标记图块
+      *[other] 已清除 { $count } 个 { $type } 标记图块
     }
-notification-cleared-all-marker-tiles = Cleared { $count } marker tiles
+notification-cleared-all-marker-tiles = 已清除 { $count } 个标记图块
 
 ## EditorActionManager
-notification-opened = Opened
+notification-opened = 已打开
 
 ## MapOverlaysLogic
 mirror-mode =
-    .none = None
-    .flip = Flip
-    .rotate = Rotate
+    .none = 无
+    .flip = 翻转
+    .rotate = 旋转
 
 ## ActorEditLogic
-notification-edited-actor = Edited { $name } ({ $id })
-notification-edited-actor-id = Edited { $name } ({ $old-id }-> { $new-id })
+notification-edited-actor = 编辑了 { $name } ({ $id })
+notification-edited-actor-id = 编辑了 { $name } ({ $old-id }->{ $new-id })
 
 ## ConquestVictoryConditions, StrategicVictoryConditions
-notification-player-is-victorious = { $player } is victorious.
-notification-player-is-defeated = { $player } is defeated.
+notification-player-is-victorious = { $player } 胜利了。
+notification-player-is-defeated = { $player } 失败了。
 
 ## OrderManager
-notification-desync-compare-logs = Out of sync in frame { $frame }.
-    Compare syncreport.log with other players.
+notification-desync-compare-logs = 在第 { $frame } 帧出现不同步。
+    与其他玩家比较 syncreport.log。
 
 ## WidgetUtils
-label-win-state-won = Won
-label-win-state-lost = Lost
-label-client-state-disconnected = Gone
+label-win-state-won = 胜利
+label-win-state-lost = 失败
+label-client-state-disconnected = 掉线
 
 ## Player
 enumerated-bot-name =
@@ -879,12 +871,12 @@ keycode-modifier =
 
 ## KeycodeExts
 keycode =
-    .unknown = Undefined
-    .return = Return
-    .escape = Escape
-    .backspace = Backspace
+    .unknown = 未定义
+    .return = 返回
+    .escape = ESC
+    .backspace = 退格
     .tab = Tab
-    .space = Space
+    .space = 空格
     .exclaim = !
     .quotedbl = "
     .hash = #
@@ -976,11 +968,11 @@ keycode =
     .down = Down
     .up = Up
     .numlockclear = Numlock
-    .kp_divide = Keypad /
-    .kp_multiply = Keypad *
-    .kp_minus = Keypad -
-    .kp_plus = Keypad +
-    .kp_enter = Keypad Enter
+    .kp_divide = 小键盘 /
+    .kp_multiply = 小键盘 *
+    .kp_minus = 小键盘 -
+    .kp_plus = 小键盘 +
+    .kp_enter = 小键盘 Enter
     .kp_1 = Keypad 1
     .kp_2 = Keypad 2
     .kp_3 = Keypad 3
@@ -992,9 +984,9 @@ keycode =
     .kp_9 = Keypad 9
     .kp_0 = Keypad 0
     .kp_period = Keypad .
-    .application = Application
-    .power = Power
-    .kp_equals = Keypad =
+    .application = 应用
+    .power = 电源
+    .kp_equals = 小键盘 =
     .f13 = F13
     .f14 = F14
     .f15 = F15
@@ -1007,124 +999,124 @@ keycode =
     .f22 = F22
     .f23 = F23
     .f24 = F24
-    .execute = Execute
-    .help = Help
-    .menu = Menu
-    .select = Select
-    .stop = Stop
-    .again = Again
-    .undo = Undo
-    .cut = Cut
-    .copy = Copy
-    .paste = Paste
-    .find = Find
-    .mute = Mute
-    .volumeup = VolumeUp
-    .volumedown = VolumeDown
-    .kp_comma = Keypad ,
-    .kp_equalsas400 = Keypad (AS400)
+    .execute = 执行
+    .help = 帮助
+    .menu = 菜单
+    .select = 选择
+    .stop = 停止
+    .again = 再试
+    .undo = 撤销
+    .cut = 剪切
+    .copy = 复制
+    .paste = 粘贴
+    .find = 查找
+    .mute = 静音
+    .volumeup = 音量上
+    .volumedown = 音量下
+    .kp_comma = 小键盘 ,
+    .kp_equalsas400 = 小键盘 (AS400)
     .alterase = AltErase
     .sysreq = SysReq
-    .cancel = Cancel
-    .clear = Clear
-    .prior = Prior
-    .return2 = Return
-    .separator = Separator
-    .out = Out
+    .cancel = 取消
+    .clear = 清空
+    .prior = 前
+    .return2 = 返回
+    .separator = 分隔符
+    .out = 出
     .oper = Oper
-    .clearagain = Clear / Again
+    .clearagain = 清除/再一次
     .crsel = CrSel
     .exsel = ExSel
     .kp_00 = Keypad 00
     .kp_000 = Keypad 000
     .thousandsseparator = ThousandsSeparator
-    .decimalseparator = DecimalSeparator
-    .currencyunit = CurrencyUnit
-    .currencysubunit = CurrencySubUnit
-    .kp_leftparen = Keypad (
-    .kp_rightparen = Keypad )
-    .kp_leftbrace = Keypad {"{"}
-    .kp_rightbrace = Keypad {"}"}
-    .kp_tab = Keypad Tab
-    .kp_backspace = Keypad Backspace
-    .kp_a = Keypad A
-    .kp_b = Keypad B
-    .kp_c = Keypad C
-    .kp_d = Keypad D
-    .kp_e = Keypad E
-    .kp_f = Keypad F
-    .kp_xor = Keypad XOR
-    .kp_power = Keypad ^
-    .kp_percent = Keypad %
-    .kp_less = Keypad <
-    .kp_greater = Keypad >
-    .kp_ampersand = Keypad &
-    .kp_dblampersand = Keypad &&
-    .kp_verticalbar = Keypad |
-    .kp_dblverticalbar = Keypad ||
-    .kp_colon = Keypad :
-    .kp_hash = Keypad #
-    .kp_space = Keypad Space
-    .kp_at = Keypad @
-    .kp_exclam = Keypad !
-    .kp_memstore = Keypad MemStore
-    .kp_memrecall = Keypad MemRecall
-    .kp_memclear = Keypad MemClear
-    .kp_memadd = Keypad MemAdd
-    .kp_memsubtract = Keypad MemSubtract
-    .kp_memmultiply = Keypad MemMultiply
-    .kp_memdivide = Keypad MemDivide
-    .kp_plusminus = Keypad +/-
-    .kp_clear = Keypad Clear
-    .kp_clearentry = Keypad ClearEntry
-    .kp_binary = Keypad Binary
-    .kp_octal = Keypad Octal
-    .kp_decimal = Keypad Decimal
-    .kp_hexadecimal = Keypad Hexadecimal
-    .lctrl = Left Ctrl
-    .lshift = Left Shift
-    .lalt = Left Alt
-    .lgui = Left GUI
-    .rctrl = Right Ctrl
-    .rshift = Right Shift
-    .ralt = Right Alt
-    .rgui = Right GUI
-    .mode = ModeSwitch
-    .audionext = AudioNext
-    .audioprev = AudioPrev
-    .audiostop = AudioStop
-    .audioplay = AudioPlay
-    .audiomute = AudioMute
-    .mediaselect = MediaSelect
-    .www = WWW
-    .mail = Mail
-    .calculator = Calculator
-    .computer = Computer
-    .ac_search = AC Search
-    .ac_home = AC Home
-    .ac_back = AC Back
-    .ac_forward = AC Forward
-    .ac_stop = AC Stop
-    .ac_refresh = AC Refresh
-    .ac_bookmarks = AC Bookmarks
-    .brightnessdown = BrightnessDown
-    .brightnessup = BrightnessUp
-    .displayswitch = DisplaySwitch
-    .kbdillumtoggle = KBDIllumToggle
-    .kbdillumdown = KBDIllumDown
-    .kbdillumup = KBDIllumUp
-    .eject = Eject
-    .sleep = Sleep
-    .mouse4 = Mouse 4
-    .mouse5 = Mouse 5
+    .decimalseparator = 小数点分隔符
+    .currencyunit = 货币单位
+    .currencysubunit = 货币子单位
+    .kp_leftparen = 小键盘 (
+    .kp_rightparen = 小键盘 )
+    .kp_leftbrace = 键盘 {"{"}
+    .kp_rightbrace = 键盘 {"}"}
+    .kp_tab = 小键盘 Tab
+    .kp_backspace = 小键盘 Backspace
+    .kp_a = 小键盘 A
+    .kp_b = 小键盘 B
+    .kp_c = 小键盘 C
+    .kp_d = 小键盘 D
+    .kp_e = 小键盘 E
+    .kp_f = 小键盘 F
+    .kp_xor = 小键盘 异或
+    .kp_power = 小键盘 ^
+    .kp_percent = 小键盘 %
+    .kp_less = 小键盘 <
+    .kp_greater = 小键盘 >
+    .kp_ampersand = 小键盘 &
+    .kp_dblampersand = 小键盘 &&
+    .kp_verticalbar = 小键盘 |
+    .kp_dblverticalbar = 小键盘 ||
+    .kp_colon = 小键盘 :
+    .kp_hash = 小键盘 #
+    .kp_space = 小键盘 空格
+    .kp_at = 小键盘 @
+    .kp_exclam = 小键盘 !
+    .kp_memstore = 小键盘 存储
+    .kp_memrecall = 小键盘 读取
+    .kp_memclear = 小键盘 清除
+    .kp_memadd = 小键盘 加法
+    .kp_memsubtract = 小键盘 减法
+    .kp_memmultiply = 小键盘 乘法
+    .kp_memdivide = 小键盘 除法
+    .kp_plusminus = 小键盘 +/-
+    .kp_clear = 小键盘 清除
+    .kp_clearentry = 小键盘 清除输入
+    .kp_binary = 小键盘 二进制
+    .kp_octal = 小键盘 八进制
+    .kp_decimal = 小键盘 十进制
+    .kp_hexadecimal = 小键盘 十六进制
+    .lctrl = 左 Ctrl
+    .lshift = 左 Shift
+    .lalt = 左 Alt
+    .lgui = 左 GUI
+    .rctrl = 右 Ctrl
+    .rshift = 右 Shift
+    .ralt = 右 Alt
+    .rgui = 右 GUI
+    .mode = 模式切换
+    .audionext = 下一曲
+    .audioprev = 上一曲
+    .audiostop = 停止
+    .audioplay = 播放
+    .audiomute = 静音
+    .mediaselect = 媒体选择
+    .www = 网页
+    .mail = 邮件
+    .calculator = 计算器
+    .computer = 计算机
+    .ac_search = 搜索
+    .ac_home = 主页
+    .ac_back = 后退
+    .ac_forward = 前进
+    .ac_stop = 停止
+    .ac_refresh = 刷新
+    .ac_bookmarks = 书签
+    .brightnessdown = 降低亮度
+    .brightnessup = 提高亮度
+    .displayswitch = 显示切换
+    .kbdillumtoggle = 键盘背光切换
+    .kbdillumdown = 键盘背光降低
+    .kbdillumup = 键盘背光提高
+    .eject = 弹出
+    .sleep = 睡眠
+    .mouse4 = 鼠标4
+    .mouse5 = 鼠标5
 
 ## MapGeneratorToolLogic
-label-map-generator-failed-cancel = Dismiss
-notification-map-generator-generated = Generated using { $name }
-notification-map-generator-failed = Map generation failed
+label-map-generator-failed-cancel = 取消
+notification-map-generator-generated = 使用 { $name } 生成
+notification-map-generator-failed = 地图生成失败
 
 ## EditorTilingPathBrush
-notification-tiling-path-started = Started tiling path
-notification-tiling-path-updated = Updated tiling path
-notification-tiling-path-reset = Discarded tiling path
-notification-tiling-path-painted = Painted tiling path
+notification-tiling-path-started = 已开始平铺路径
+notification-tiling-path-updated = 已更新平铺路径
+notification-tiling-path-reset = 已丢弃平铺路径
+notification-tiling-path-painted = 已绘制平铺路径

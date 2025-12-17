@@ -1,75 +1,75 @@
 ## world
 dropdown-difficulty =
-    .label = Difficulty
-    .description = The difficulty of the mission
+    .label = 难度
+    .description = 任务的难度
 
 options-difficulty =
-    .easy = Easy
-    .normal = Normal
-    .hard = Hard
+    .easy = 简单
+    .normal = 普通
+    .hard = 困难
 
 ## player
 bot-campaign-ai =
-    .name = Campaign Player AI
+    .name = 战役玩家AI
 
 ## campaign-rules.yaml
-actor-crate-name = Crate
+actor-crate-name = 补给箱
 
 ## campaign-tooltips.yaml
-actor-technology-center-name = Technology Center
+actor-technology-center-name = 科技中心
 
 ## allies-05a, allies-05b, allies-05c, negotiations
-actor-prison-name = Prison
+actor-prison-name = 监狱
 
 ## fall-of-greece-1-personal-war, situation-critical
-actor-strategic-bomber-name = Strategic Bomber
+actor-strategic-bomber-name = 战略轰炸机
 
 ## fall-of-greece-1-personal-war, mousetrap
-actor-stavros-name = Stavros
+actor-stavros-name = 斯塔夫罗斯
 
 ## intervention
-actor-air-force-hq-name = Soviet Air Force HQ
-actor-mainland-name = Reach the mainland
-actor-givefix-name = Weapons Factory or Helipad
+actor-air-force-hq-name = 苏联空军总部
+actor-mainland-name = 抵达大陆
+actor-givefix-name = 武器工厂或直升机坪
 
 ## monster-tank-madness
-actor-demitri-name = Dr. Demitri
+actor-demitri-name = 德米特里博士
 
 actor-5tnk =
-    .name = Super Tank
-    .generic-name = Super Tank
+    .name = 超级坦克
+    .generic-name = 超级坦克
 
-actor-5tnk-husk-name = Husk (Super Tank)
+actor-5tnk-husk-name = 残骸（超级坦克）
 
 ## mousetrap, situation-critical
-actor-gas-name = Gas
+actor-gas-name = 瓦斯
 
 ## sarin-gas-2-down-under
-actor-officer-name = Officer
+actor-officer-name = 军官
 
 ## sarin-gas-3-controlled-burn
-actor-sarin-processing-plant-name = Sarin Processing Plant
+actor-sarin-processing-plant-name = 沙林加工厂
 
 ## siberian-conflict-1-fresh-tracks
-actor-atomic-material-name = Atomic Material
+actor-atomic-material-name = 原子材料
 
 ## situation-critical
-actor-scientist-name = Scientist
+actor-scientist-name = 科学家
 
 ## soviet-soldier-volkov-n-chitzkoi
 actor-afac =
-    .name = Alloy Facility
-    .generic-name = Alloy Facility
+    .name = 合金设施
+    .generic-name = 合金设施
 
 actor-ccen =
-    .name = Control Center
-    .generic-name = Control Center
+    .name = 控制中心
+    .generic-name = 控制中心
 
-actor-hgun-name = Heavy Turret Prototype
+actor-hgun-name = 重型炮塔原型
 
 actor-zkoi =
-    .name = Chitzkoi
-    .generic-name = Cyborg Dog
+    .name = 奇茨科伊
+    .generic-name = 生化犬
 
 ## situation-critical, soviet-soldier-volkov-n-chitzkoi
-actor-volk-name = Volkov
+actor-volk-name = 沃尔科夫

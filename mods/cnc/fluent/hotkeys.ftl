@@ -1,8 +1,8 @@
 ## hotkeys.yaml
-hotkey-description-nextproductiontab = Next tab
-hotkey-description-previousproductiontab = Previous tab
-hotkey-description-productiontypebuilding = Building Tab
-hotkey-description-productiontypesupport = Support Tab
-hotkey-description-productiontypeinfantry = Infantry Tab
-hotkey-description-productiontypevehicle = Vehicle Tab
-hotkey-description-productiontypeaircraft = Aircraft Tab
+hotkey-description-nextproductiontab = 下一个标签页
+hotkey-description-previousproductiontab = 上一个标签页
+hotkey-description-productiontypebuilding = 构建选项卡
+hotkey-description-productiontypesupport = 支持选项卡
+hotkey-description-productiontypeinfantry = 步兵选项卡
+hotkey-description-productiontypevehicle = 车辆选项卡
+hotkey-description-productiontypeaircraft = 飞机选项卡

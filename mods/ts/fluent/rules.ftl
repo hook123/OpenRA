@@ -1,827 +1,801 @@
 ## Player
-options-tech-level =
-    .low = Low
-    .medium = Medium
-    .no-powers = No Powers
-    .unrestricted = Unrestricted
+options-tech-level = 
+    .low = 低
+    .medium = 中
+    .no-powers = 无超武
+    .unrestricted = 无限制
 
-checkbox-redeployable-mcvs =
-    .label = Redeployable MCVs
-    .description = Allows Construction Yards to be undeployed
+checkbox-redeployable-mcvs = 
+    .label = 可重新部署的MCV
+    .description = 允许建造场重新部署
 
-notification-insufficient-funds = Insufficient funds.
-notification-new-construction-options = New construction options.
-notification-cannot-deploy-here = Cannot deploy here.
-notification-low-power = Low power.
-notification-base-under-attack = Base under attack.
-notification-ally-under-attack = Our ally is under attack.
-notification-harvester-under-attack = Harvester under attack.
-notification-silos-needed = Silos needed.
+notification-insufficient-funds = 资金不足。
+notification-new-construction-options = 新的建造选项。
+notification-cannot-deploy-here = 无法在此处部署。
+notification-low-power = 电力不足。
+notification-base-under-attack = 基地遭受攻击。
+notification-ally-under-attack = 我们的盟友遭受攻击。
+notification-harvester-under-attack = 矿车遭受攻击。
+notification-silos-needed = 需要建造矿石精炼厂。
 
 ## World
-options-starting-units =
-    .mcv-only = MCV Only
-    .light = Light
-    .medium = Medium
-    .heavy = Heavy
+options-starting-units = 
+    .mcv-only = 仅MCV
+    .light = 轻型
+    .medium = 中型
+    .heavy = 重型
 
-dropdown-map-creeps =
-    .label = Creep Actors
-    .description = Hostile forces spawn on the battlefield
+dropdown-map-creeps = 
+    .label = 中立单位
+    .description = 战场上生成敌对势力
 
-resource-veins = Veins
-resource-tiberium = Tiberium
+resource-veins = 矿脉
+resource-tiberium = 泰伯利亚矿
 
-faction-random =
-    .name = Any
-    .description = Random Faction
-     A random faction is chosen when the game starts.
+faction-random = 
+    .name = 随机
+    .description =
+        随机阵营
+        游戏开始时随机选择一个阵营。
 
-faction-gdi =
+faction-gdi = 
     .name = GDI
-    .description = Global Defense Initiative
-     The GDI is an international military branch of the United Nations tasked
-     with keeping world peace. Commanding the combined forces of the world's
-     most powerful nations, it possesses an unmatched arsenal of high-tech weaponry.
+    .description =
+        全球防御组织
+        GDI是联合国下属的国际军事部门，负责维护世界和平。指挥着世界最强大国家的联合部队，拥有无与伦比的高科技武器库。
 
-faction-nod =
+faction-nod = 
     .name = Nod
-    .description = Brotherhood of Nod
-     The Brotherhood is a religious cult centered around their leader Kane
-     and the alien substance Tiberium. They employ stealth technology
-     and guerrilla tactics to defeat those who oppose them.
+    .description =
+        Nod兄弟会
+        兄弟会是一个以其领袖凯恩和外星物质泰伯利亚为核心的宗教组织。他们使用隐形技术和游击战术来击败反对者。
 
 ## Structures
-notification-construction-complete = Construction complete.
-notification-unit-ready = Unit ready.
-notification-unable-to-comply-building-in-progress = Unable to comply; building in progress.
-notification-repairing = Repairing.
-notification-unit-repaired = Unit repaired.
-notification-unit-sold = Unit sold.
-notification-ion-cannon-ready = Ion cannon ready.
-notification-select-target = Select target.
-notification-cluster-missile-ready = Cluster missile ready.
-notification-missile-launch-detected = Missile launch detected.
-notification-emp-cannon-ready = EMP cannon ready.
+notification-construction-complete = 建造完成。
+notification-unit-ready = 单位就绪。
+notification-unable-to-comply-building-in-progress = 无法执行；建造进行中。
+notification-repairing = 维修中。
+notification-unit-repaired = 单位已修复。
+notification-unit-sold = 单位已出售。
+notification-ion-cannon-ready = 离子炮就绪。
+notification-select-target = 选择目标。
+notification-cluster-missile-ready = 集束导弹就绪。
+notification-missile-launch-detected = 检测到导弹发射。
+notification-emp-cannon-ready = EMP炮就绪。
 
 ## Defaults
-notification-unit-lost = Unit lost.
-notification-unit-promoted = Unit promoted.
-notification-primary-building-selected = Primary building selected.
+notification-unit-lost = 单位损失。
+notification-unit-promoted = 单位晋升。
+notification-primary-building-selected = 主要建筑已选择。
 
 ## Infantry
-notification-building-infiltrated = Building infiltrated.
-notification-building-captured = Building captured.
-notification-bridge-repaired = Bridge repaired.
+notification-building-infiltrated = 建筑被渗透。
+notification-building-captured = 建筑被占领。
+notification-bridge-repaired = 桥梁已修复。
 
 ## aircraft.yaml
-actor-dpod-name = Drop Pod
-actor-dpod2-name = Drop Pod
-actor-dshp-name = Dropship
+actor-dpod-name = 空投舱
+actor-dpod2-name = 空投舱
+actor-dshp-name = 运输机
 
-actor-orca =
-    .name = Orca Fighter
+actor-orca = 
+    .name = 奥卡战斗机
     .description =
-    Fast assault gunship with
-    dual missile launchers.
-       Strong vs Buildings and Vehicles
-       Weak vs Infantry and Aircraft
+        配备双导弹发射器的快速突击炮艇。
+           对建筑和车辆有效
+           对步兵和飞机效果较差
 
-actor-orcab =
-    .name = Orca Bomber
+actor-orcab = 
+    .name = 奥卡轰炸机
     .description =
-    Heavy bomber.
-       Strong vs Buildings and Vehicles
-       Weak vs Infantry and Aircraft
+        重型轰炸机。
+           对建筑和车辆有效
+           对步兵和飞机效果较差
 
-actor-orcatran-name = Orca Transport
+actor-orcatran-name = 奥卡运输机
 
-actor-trnsport =
-    .name = Carryall
+actor-trnsport = 
+    .name = 运输直升机
     .description =
-    VTOL aircraft capable of lifting
-    and transporting vehicles.
-      Unarmed
+        能够吊起并运输车辆的垂直起降飞机。
+           无武装
 
-actor-scrin =
-    .name = Banshee Fighter
+actor-scrin = 
+    .name = 女妖战斗机
     .description =
-    Advanced fighter-bomber craft
-    with twin plasma cannons.
-       Strong vs Buildings and Vehicles
-       Weak vs Infantry and Aircraft
-
-actor-apache =
-    .name = Harpy
+        配备双等离子炮的先进战斗轰炸机。
+           对建筑和车辆有效
+           对步兵和飞机效果较差
+actor-apache = 
+    .name = 鹰身女妖
     .description =
-    Anti-personnel support gunship
-    with dual chain guns.
-       Strong vs Infantry, Light armor and Aircraft
-       Weak vs Vehicles
-
-actor-hunter-name = Hunter-Seeker Droid
+        配备双链炮的反人员支援炮艇。
+           对步兵、轻装甲单位和飞机有效
+           对车辆效果较差
+actor-hunter-name = 猎杀机器人
 
 ## bridges.yaml
-actor-cabhut-name = Bridge repair hut
-meta-lowbridgeramp-name = Bridge
-actor-lobrdg-d-name = Dead Bridge
-actor-lobrdg-r-name = Bridge Ramp
-meta-elevatedbridgeplaceholder-name = Bridge
+actor-cabhut-name = 桥梁维修屋
+meta-lowbridgeramp-name = 桥梁
+actor-lobrdg-d-name = 毁坏的桥梁
+actor-lobrdg-r-name = 桥梁斜坡
+meta-elevatedbridgeplaceholder-name = 桥梁
 
 ## civilian-infantry.yaml
-actor-weedguy-name = Chem Spray Infantry
-actor-umagon-name = Umagon
-actor-chamspy-disguisetooltip-name = Chameleon Spy
-actor-mutant-name = Mutant
-actor-mwmn-name = Mutant Soldier
-actor-mutant3-name = Mutant Sergeant
-actor-tratos-name = Tratos
-actor-oxanna-name = Oxanna
-actor-slav-name = Slavik
+actor-weedguy-name = 化学喷射步兵
+actor-umagon-name = 乌玛贡
+actor-chamspy-disguisetooltip-name = 变色龙间谍
+actor-mutant-name = 变种人
+actor-mwmn-name = 变种人士兵
+actor-mutant3-name = 变种人军士
+actor-tratos-name = 特拉托斯
+actor-oxanna-name = 奥克桑娜
+actor-slav-name = 斯拉维克
 
 ## civilian-structures.yaml
-actor-aban01-name = WS Logging Company
-actor-aban02-name = Panullo Hacienda
-actor-aban03-name = Abandoned Factory
-actor-aban04-name = City Hall
-actor-aban05-name = Hunting Lodge
-actor-aban06-name = Local Inn & Lodging
-actor-aban07-name = Church
-actor-aban08-name = Abandoned Warehouse
-actor-aban09-name = Tall's Residence
-actor-aban10-name = Denzil's Last Chance Motel
-actor-aban11-name = Miele Manor
-actor-aban12-name = Kettler's Place
-actor-aban13-name = Long's Home
-actor-aban14-name = Local Store
-actor-aban15-name = Adam's House
-actor-aban16-name = Gas Station
-actor-aban17-name = Gas Pumps
-actor-aban18-name = Gas Station Sign
-actor-ammocrat-name = Ammo Crates
-actor-bboard01-name = Eat at Rade's Roadhouse
-actor-bboard02-name = Drink YEO-CA Cola!
-actor-bboard03-name = Hamburgers $.99
-actor-bboard04-name = Visit Scenic Las Vegas
-actor-bboard05-name = Rooms $29 a nite
-actor-bboard06-name = Kaspm's Tiberium Warhouse
-actor-bboard07-name = Alkaline's Battery Superstore
-actor-bboard08-name = Alex-Gator's Petshop just ahead!
-actor-bboard09-name = TacticX Games rock!
-actor-bboard10-name = WW Surf and Turf hits the spot!
-actor-bboard11-name = Only 11 miles to Zydeko's cafe!
-actor-bboard12-name = No escape from Archer's Asylum!
-actor-bboard13-name = Stop in at Hewitt's hair salon
-actor-bboard14-name = Billy Bob's Harvester School
-actor-bboard15-name = Pannullo's hacienda es bueno
-actor-bboard16-name = Join GDI: We save lives.
-actor-ca0001-name = Rade's Roadhouse
-actor-ca0002-name = Sandberg and Son's
-actor-ca0003-name = Temp Housing
-actor-ca0004-name = Waystation
-actor-ca0005-name = Ferbie's 4 Sale
-actor-ca0006-name = Deluxe Accomodations
-actor-ca0007-name = Field Generator
-actor-ca0008-name = Subterranean Dwelling
-actor-ca0009-name = Subterranean Dwelling
-actor-ca0010-name = Leary Traveller Inn
-actor-ca0011-name = Water Tank
-actor-ca0012-name = Greenhouse
-actor-ca0013-name = Water Purifier
-actor-ca0014-name = Observation Tower
-actor-ca0015-name = Port-A-Shack
-actor-ca0016-name = Port-A-Shack Deluxe
-actor-ca0017-name = Energy Transformer
-actor-ca0018-name = Solar Panel
-actor-ca0019-name = Solar Panel
-actor-ca0020-name = Solar Panel
-actor-ca0021-name = Solar Panel
-actor-caaray-name = Civilian Array
-actor-caarmr-name = Civilian Armory
-actor-cacrsh01-name = Crash Site
-actor-capyr01-name = Pyramid
-actor-capyr02-name = Pyramid
-actor-capyr03-name = Pyramid
-actor-city01-name = Connelly Court Apts
-actor-city02-name = Lightner's Luxury Suites
-actor-city03-name = Office Building
-actor-city04-name = Westwood Stock Exchange
-actor-city05-name = Daily Sun Times
-actor-city06-name = YEO-CA Cola Corp.
-actor-city07-name = Urban Housing
-actor-city08-name = Yee's Discount Liquor
-actor-city09-name = Abandoned Warehouse
-actor-city10-name = Urban Storefront
-actor-city11-name = Ambrose Lounge
-actor-city12-name = Bostic Tower
-actor-city13-name = Hewitt Hair Salon
-actor-city14-name = Business Offices
-actor-city15-name = 2nd National Bank
-actor-city16-name = Highrise Hotel
-actor-city17-name = The Projects
-actor-city18-name = Archer Asylum
-actor-city19-name = Fill'er Up-Pump'N'Go
-actor-city20-name = Gas Pump
-actor-city21-name = Gas Station Sign
-actor-city22-name = Church
-actor-ctdam-name = Hydroelectric Dam
-actor-ctvega-name = Vega's Pyramid
-actor-gakodk-name = GDI Kodiak
-actor-gaoldcc1-name = Old Construction Yard
-actor-gaoldcc2-name = Old Temple
-actor-gaoldcc3-name = Old Weapons Factory
-actor-gaoldcc4-name = Old Refinery
-actor-gaoldcc5-name = Old Advanced Power Plant
-actor-gaoldcc6-name = Old Silos
+actor-aban01-name = WS伐木公司
+actor-aban02-name = 帕努洛庄园
+actor-aban03-name = 废弃工厂
+actor-aban04-name = 市政厅
+actor-aban05-name = 狩猎小屋
+actor-aban06-name = 当地旅馆
+actor-aban07-name = 教堂
+actor-aban08-name = 废弃仓库
+actor-aban09-name = 塔尔住宅
+actor-aban10-name = 丹泽尔最后机会汽车旅馆
+actor-aban11-name = 米勒庄园
+actor-aban12-name = 凯特勒住所
+actor-aban13-name = 朗的家
+actor-aban14-name = 当地商店
+actor-aban15-name = 亚当的房子
+actor-aban16-name = 加油站
+actor-aban17-name = 油泵
+actor-aban18-name = 加油站标志
+actor-ammocrat-name = 弹药箱
+actor-bboard01-name = 在雷德路边餐馆用餐
+actor-bboard02-name = 喝YEO-CA可乐！
+actor-bboard03-name = 汉堡0.99美元
+actor-bboard04-name = 游览风景如画的拉斯维加斯
+actor-bboard05-name = 房间每晚29美元
+actor-bboard06-name = 卡斯普姆的泰伯利亚仓库
+actor-bboard07-name = 阿尔卡林的电池超市
+actor-bboard08-name = 亚历克斯-盖特的宠物店就在前面！
+actor-bboard09-name = TacticX游戏真棒！
+actor-bboard10-name = WW海陆大餐满足你的味蕾！
+actor-bboard11-name = 距离齐德科咖啡馆仅11英里！
+actor-bboard12-name = 无法逃离阿彻的精神病院！
+actor-bboard13-name = 来休伊特的美发沙龙看看吧
+actor-bboard14-name = 比利·鲍勃的矿车学校
+actor-bboard15-name = 帕努洛的庄园很棒
+actor-bboard16-name = 加入GDI：我们拯救生命。
+actor-ca0001-name = 雷德路边餐馆
+actor-ca0002-name = 桑德伯格父子店
+actor-ca0003-name = 临时住房
+actor-ca0004-name = 中转站
+actor-ca0005-name = 费比二手店
+actor-ca0006-name = 豪华住宿
+actor-ca0007-name = 力场发生器
+actor-ca0008-name = 地下住所
+actor-ca0009-name = 地下住所
+actor-ca0010-name = 利里旅行者旅馆
+actor-ca0011-name = 水箱
+actor-ca0012-name = 温室
+actor-ca0013-name = 净水器
+actor-ca0014-name = 瞭望塔
+actor-ca0015-name = 便携小屋
+actor-ca0016-name = 豪华便携小屋
+actor-ca0017-name = 能量转换器
+actor-ca0018-name = 太阳能板
+actor-ca0019-name = 太阳能板
+actor-ca0020-name = 太阳能板
+actor-ca0021-name = 太阳能板
+actor-caaray-name = 民用阵列
+actor-caarmr-name = 民用军械库
+actor-cacrsh01-name = 坠机现场
+actor-capyr01-name = 金字塔
+actor-capyr02-name = 金字塔
+actor-capyr03-name = 金字塔
+actor-city01-name = 康奈利法院公寓
+actor-city02-name = 莱特纳豪华套房
+actor-city03-name = 办公楼
+actor-city04-name = 西木证券交易所
+actor-city05-name = 每日太阳时报
+actor-city06-name = YEO-CA可乐公司
+actor-city07-name = 城市住宅
+actor-city08-name = 叶氏折扣酒业
+actor-city09-name = 废弃仓库
+actor-city10-name = 城市店面
+actor-city11-name = 安布罗斯休息室
+actor-city12-name = 博斯蒂克塔楼
+actor-city13-name = 休伊特美发沙龙
+actor-city14-name = 商务办公室
+actor-city15-name = 第二国家银行
+actor-city16-name = 高层酒店
+actor-city17-name = 住宅项目区
+actor-city18-name = 阿彻精神病院
+actor-city19-name = 加满油-即加即走
+actor-city20-name = 加油泵
+actor-city21-name = 加油站标牌
+actor-city22-name = 教堂
+actor-ctdam-name = 水电站大坝
+actor-ctvega-name = 维加金字塔
+actor-gakodk-name = GDI科迪亚克号
+actor-gaoldcc1-name = 旧建造厂
+actor-gaoldcc2-name = 旧神庙
+actor-gaoldcc3-name = 旧武器工厂
+actor-gaoldcc4-name = 旧精炼厂
+actor-gaoldcc5-name = 旧高级发电厂
+actor-gaoldcc6-name = 旧储存仓
 
-actor-gasand =
-    .name = Sandbags
+actor-gasand = 
+    .name = 沙袋
     .description =
-    Stops infantry and light vehicles.
-    Can be crushed by tanks.
+        阻挡步兵和轻型车辆。
+        可被坦克碾碎。
 
-actor-gaspot-name = Light Tower
-actor-galite-name = Light Post
-actor-ingalite-name = (Invisible Light Post)
-actor-neglamp-name = (Invisible Negative Light Post)
-actor-redlamp-name = Red Light Post
-actor-negred-name = Negative Red Light Post
-actor-grenlamp-name = Green Light Post
-actor-bluelamp-name = Blue Light Post
-actor-yelwlamp-name = Yellow Light Post
-actor-inyelwlamp-name = (Invisible Yellow Light Post)
-actor-purplamp-name = Purple Light Post
-actor-inpurplamp-name = (Invisible Purple Light Post)
-actor-inoranlamp-name = (Invisible Orange Light Post)
-actor-ingrnlmp-name = (Invisible Green Light Post)
-actor-inredlmp-name = (Invisible Red Light Post)
-actor-inblulmp-name = (Invisible Blue Light Post)
-actor-gaicbm-name = Deployed ICBM
-actor-namntk-name = Nod Montauk
-actor-ntpyra-name = Nod Pyramid
-actor-ufo-name = Scrin Ship
+actor-gaspot-name = 灯塔
+actor-galite-name = 灯柱
+actor-ingalite-name = （隐形灯柱）
+actor-neglamp-name = （隐形负光灯柱）
+actor-redlamp-name = 红色灯柱
+actor-negred-name = 负红色灯柱
+actor-grenlamp-name = 绿色灯柱
+actor-bluelamp-name = 蓝色灯柱
+actor-yelwlamp-name = 黄色灯柱
+actor-inyelwlamp-name = （隐形黄色灯柱）
+actor-purplamp-name = 紫色灯柱
+actor-inpurplamp-name = （隐形紫色灯柱）
+actor-inoranlamp-name = （隐形橙色灯柱）
+actor-ingrnlmp-name = （隐形绿色灯柱）
+actor-inredlmp-name = （隐形红色灯柱）
+actor-inblulmp-name = （隐形蓝色灯柱）
+actor-gaicbm-name = 已部署洲际弹道导弹
+actor-namntk-name = Nod蒙托克号
+actor-ntpyra-name = Nod金字塔
+actor-ufo-name = 思金人飞船
 
 ## civilian-vehicles.yaml
-actor-4tnk-name = Mammoth Tank
-meta-truck-name = Truck
-actor-icbm-name = Ballistic Missile Launcher
-actor-bus-name = School Bus
-actor-pick-name = Pickup
-actor-car-name = Automobile
-actor-wini-name = Recreational Vehicle
-actor-locomotive-name = Train Locomotive
-actor-traincar-name = Passenger Car
-actor-cargocar-name = Cargo Car
+actor-4tnk-name = 猛犸坦克
+meta-truck-name = 卡车
+actor-icbm-name = 弹道导弹发射器
+actor-bus-name = 校车
+actor-pick-name = 皮卡车
+actor-car-name = 汽车
+actor-wini-name = 房车
+actor-locomotive-name = 火车机车
+actor-traincar-name = 客运车厢
+actor-cargocar-name = 货运车厢
 
 ## critters.yaml
-actor-doggie-name = Tiberian Fiend
-actor-visc-sml-name = Baby Visceroid
-actor-visc-lrg-name = Adult Visceroid
-actor-jfish-name = Tiberium Floater
+actor-doggie-name = 泰伯利亚恶魔
+actor-visc-sml-name = 幼年粘液怪
+actor-visc-lrg-name = 成年粘液怪
+actor-jfish-name = 泰伯利亚漂浮者
 
 ## defaults.yaml
-meta-crate-name = Crate
-meta-civilianinfantry-name = Civilian
-meta-aircrafthusk-generic-name = Destroyed Aircraft
-meta-blossomtree-name = Blossom Tree
-meta-tree-name = Tree
-meta-rock-name = Rock
-meta-box-name = Box
-meta-drum-name = Drum
-meta-palette-name = Pallet
-meta-railway-name = Railway
-meta-gate-description = Automated gate that opens for allied units.
+meta-crate-name = 板条箱
+meta-civilianinfantry-name = 平民
+meta-aircrafthusk-generic-name = 被摧毁的飞机
+meta-blossomtree-name = 开花树
+meta-tree-name = 树
+meta-rock-name = 岩石
+meta-box-name = 箱子
+meta-drum-name = 油桶
+meta-palette-name = 托盘
+meta-railway-name = 铁路
+meta-gate-description = 为友军单位自动开启的大门。
 
 ## gdi-infantry.yaml
-actor-e2 =
-    .name = Disc Thrower
+actor-e2 = 
+    .name = 飞盘投掷手
     .description =
-    Infantry with special explosive discs.
-       Strong vs Buildings and Infantry
-       Weak vs Vehicles and Aircraft
+        配备特殊爆炸飞盘的步兵。
+           对建筑和步兵有效
+           对车辆和飞机效果较差
 
-actor-medic =
-    .name = Medic
+actor-medic = 
+    .name = 医疗兵
     .description =
-    Heals nearby infantry.
-       Unarmed
+        治疗附近的步兵。
+           无武装
 
-actor-jumpjet =
-    .name = Jump Jet Infantry
+actor-jumpjet = 
+    .name = 火箭飞行兵
     .description =
-    Airborne soldiers.
-       Strong vs Infantry and Aircraft
-       Weak vs Vehicles
+        空降士兵。
+           对步兵和飞机有效
+           对车辆效果较差
 
-actor-jumpjet-husk-name = Jump Jet Infantry
+actor-jumpjet-husk-name = 火箭飞行兵残骸
 
-actor-ghost =
-    .name = Ghost Stalker
+actor-ghost = 
+    .name = 幽灵潜行者
     .description =
-    Elite commando infantry with a railgun
-    and C4.
-    Only one can be trained at a time.
-       Strong vs Infantry and Buildings
-       Weak vs Vehicles and Aircraft
-       Special Ability: Destroy Building with C4
+        配备磁轨枪和C4的精英突击步兵。
+        一次只能训练一名。
+           对步兵和建筑有效
+           对车辆和飞机效果较差
+           特殊能力：用C4摧毁建筑
 
 
 ## gdi-structures.yaml
-actor-gapowr =
-    .name = GDI Power Plant
+actor-gapowr = 
+    .name = GDI发电厂
+    .description = 为其他建筑提供电力。
+
+actor-gapowr-socket-name = GDI发电厂接口
+
+actor-gapowrup = 
+    .name = 发电涡轮机
+    .description = 提供额外的发电能力。
+
+actor-gapile = 
+    .name = GDI兵营
+    .description = 生产步兵。
+
+actor-gaweap = 
+    .name = GDI战争工厂
+    .description = 生产车辆。
+
+actor-gahpad = 
+    .name = 直升机停机坪
     .description =
-    Provides power for other structures.
+        生产、补给和
+        维修直升机。
 
-actor-gapowr-socket-name = GDI Power Plant socket
+actor-gadept = 
+    .name = 维修厂
+    .description = 维修或出售车辆和飞机。
 
-actor-gapowrup =
-    .name = Power Turbine
+actor-garadr = 
+    .name = GDI雷达
     .description =
-    Provides extra power generation.
+        提供战场概览。
+        可探测隐形单位。
+        需要电力才能运作。
 
-actor-gapile =
-    .name = GDI Barracks
-    .description =
-    Produces infantry.
+actor-gatech = 
+    .name = GDI科技中心
+    .description = 提供先进GDI技术的访问权限。
 
-actor-gaweap =
-    .name = GDI War Factory
-    .description =
-    Produces vehicles.
+actor-gaplug = 
+    .name = GDI升级中心
+    .description = 可升级以获得额外技术。
+    .ioncannonpower-name = 离子炮
+    .ioncannonpower-description = 发起离子炮打击。
+    对小范围造成即时伤害。
+    .droppodspower-name = 空降舱
+    .droppodspower-description = 空降舱增援。
+    一支精英小队在目标位置
+    进行轨道空降。
+    .produceactorpower-name = 猎杀者无人机
+    .produceactorpower-description = 搜寻并摧毁敌方目标的无人机。
 
-actor-gahpad =
-    .name = Helipad
-    .description =
-    Produces, rearms and
-    repairs helicopters.
+actor-gafire = 
+    .name = 风暴发生器
+    .description = 提供风暴装置访问权限的建筑。
 
-actor-gadept =
-    .name = Service Depot
-    .description =
-    Repairs or sells vehicles and aircraft.
+actor-gaplug-socket-ioncannon-name = GDI升级中心接口
+actor-gaplug-socket-hunterseeker-name = GDI升级中心接口
 
-actor-garadr =
-    .name = GDI Radar
-    .description =
-    Provides an overview of the battlefield.
-    Can detect cloaked units.
-    Requires power to operate.
+actor-gaplug2 = 
+    .name = 无人机控制中心
+    .description = 解锁猎杀者无人机。
 
-actor-gatech =
-    .name = GDI Tech Center
-    .description =
-    Provides access to advanced GDI technologies.
+actor-gaplug3 = 
+    .name = 离子炮连接站
+    .description = 解锁离子炮。
 
-actor-gaplug =
-    .name = GDI Upgrade Center
-    .description =
-    Can be upgraded for additional technology.
-    .ioncannonpower-name = Ion Cannon
-    .ioncannonpower-description = Initiates an Ion Cannon strike.
-    Applies instant damage to a small area.
-    .droppodspower-name = Drop Pods
-    .droppodspower-description = Drop Pod reinforcements.
-    A small team of elite soldiers make an orbital drop
-    at the target location.
-    .produceactorpower-name = Hunter Seeker
-    .produceactorpower-description = Drones that seek and destroy enemy targets.
-
-actor-gafire =
-    .name = Firestorm Generator
-    .description =
-    Building that grants access to the Firestorm device.
-
-actor-gaplug-socket-ioncannon-name = GDI Upgrade Center socket
-actor-gaplug-socket-hunterseeker-name = GDI Upgrade Center socket
-
-actor-gaplug2 =
-    .name = Seeker Control
-    .description =
-    Unlocks the hunter-seeker droid.
-
-actor-gaplug3 =
-    .name = Ion Cannon Uplink
-    .description =
-    Unlocks the Ion Cannon.
-
-actor-gaplug4 =
-    .name = Drop Pod Node
-    .description =
-    Unlocks Drop Pod Reinforcements.
+actor-gaplug4 = 
+    .name = 空降舱节点
+    .description = 解锁空降舱增援。
 
 ## gdi-support.yaml
-actor-gawall =
-    .name = Concrete Wall
+actor-gawall = 
+    .name = 混凝土墙
     .description =
-    Stops infantry and blocks enemy fire
-    Can NOT be crushed by tanks.
+    阻挡步兵并拦截敌方火力
+    无法被坦克碾碎。
 
-actor-gagate-a-name = GDI Gate
-actor-gagate-b-name = GDI Gate
+actor-gagate-a-name = GDI大门
+actor-gagate-b-name = GDI大门
 
 actor-gactwr =
-    .name = Component Tower
+    .name = 组件塔
     .description =
-    Modular tower for base defenses.
+    用于基地防御的模块化塔楼。
 
-actor-gactwr-socket-name = Component Tower (unupgraded)
+actor-gactwr-socket-name = 组件塔（未升级）
 
 actor-gavulc =
-    .name = Vulcan Tower
+    .name = 火神炮塔
     .description =
-    Basic base defense.
-    Does not require power to operate.
-       Strong vs Infantry and Light armor
-       Weak vs Aircraft
+    基础基地防御。
+    无需电力即可运作。
+           对步兵和轻装甲有效
+           对飞机效果较差
 
 actor-garock =
-    .name = RPG Upgrade
+    .name = 火箭升级
     .description =
-    GDI Advanced base defense.
-    Does not require power to operate.
-       Strong vs Armored ground units
-       Weak vs Aircraft
+    GDI高级基地防御。
+    无需电力即可运作。
+           对装甲地面单位有效
+           对飞机效果较差
 
 actor-gacsam =
-    .name = SAM Upgrade
+    .name = 防空导弹升级
     .description =
-    GDI Anti-Air base defense.
-    Does not require power to operate.
-       Strong vs Aircraft
-       Weak vs Ground units
+    GDI防空基地防御。
+        无需电力即可运作。
+           对飞机有效
+           对地面单位效果较差
 
 ## gdi-vehicles.yaml
 actor-apc =
-    .name = Amphibious APC
+    .name = 两栖装甲运兵车
     .description =
-    Armored infantry transport.
-    Can move on water.
-       Unarmed
+        装甲步兵运输车。
+        可在水上移动。
+           无武装
 
 actor-hvr =
-    .name = Hover MLRS
+    .name = 悬浮多管火箭炮
     .description =
-    Hovering vehicle with
-    long-range missiles.
-       Strong vs Vehicles and Aircraft
-       Weak vs Infantry
+        配备远程导弹的
+        悬浮车辆。
+           对车辆和飞机有效
+           对步兵效果较差
 
 actor-smech =
-    .name = Wolverine
+    .name = 狼獾
     .description =
-    Anti-personnel walker.
-       Strong vs Infantry and Light armor
-       Weak vs Vehicles and Aircraft
+        反步兵步行机甲。
+           对步兵和轻装甲有效
+           对车辆和飞机效果较差
 
 actor-mmch =
-    .name = Titan
+    .name = 泰坦
     .description =
-    General purpose mechanized walker.
-       Strong vs Vehicles
-       Weak vs Infantry and Aircraft
+        通用机械化步行机甲。
+           对车辆有效
+           对步兵和飞机效果较差
 
 actor-hmec =
-    .name = Mammoth Mk. II
+    .name = 猛犸Mk. II
     .description =
-    Slow, heavily armored walker.
-    Maximum of one can be built.
-    Armed with dual railguns and rocket launchers.
-       Strong vs Infantry, Vehicles, Aircraft and Buildings
-       Weak vs Nothing
+        缓慢、重装甲的步行机甲。
+        最多可建造一个。
+        装备双轨道炮和火箭发射器。
+           对步兵、车辆、飞行器和建筑有效
+           无弱点
 
 actor-sonic =
-    .name = Disruptor
+    .name = 音波坦克
     .description =
-    Armored high-tech vehicle with
-    long-range and sonic armament.
-       Strong vs Infantry, Vehicles and Buildings
-       Weak vs Aircraft
+        配备远程音波武器的
+        高科技装甲车辆。
+           对步兵、车辆和建筑有效
+           弱点：飞行器
 
-actor-jugg =
-    .name = Juggernaut
-    .deployed-name = Juggernaut (deployed)
+actor-jugg = 
+    .name = 神像机甲
+    .deployed-name = 神像机甲（已部署）
     .description =
-    Mobile Artillery Mech.
-    Must be deployed in order to shoot.
-       Strong vs Ground units
-       Weak vs Aircraft
+        移动炮兵机甲。
+        必须部署才能射击。
+           对地面单位有效
+           弱点：飞行器
 
-actor-mobilemp =
-    .name = Mobile EMP Cannon
+actor-mobilemp = 
+    .name = 移动EMP炮
     .description =
-    Fires a pulse blast which disables
-    all mechanical units in the area.
+        发射脉冲冲击波，瘫痪
+        区域内所有机械单位。
 
 ## husks.yaml
-actor-dshp-husk-name = Dropship
-actor-orca-husk-name = Orca Fighter
-actor-orcab-husk-name = Orca Bomber
-actor-orcatran-husk-name = Orca Transport
-actor-trnsport-husk-name = Carryall
-actor-scrin-husk-name = Banshee Fighter
-actor-apache-husk-name = Harpy
+actor-dshp-husk-name = 运输机
+actor-orca-husk-name = 奥卡战斗机
+actor-orcab-husk-name = 奥卡轰炸机
+actor-orcatran-husk-name = 奥卡运输机
+actor-trnsport-husk-name = 运输直升机
+actor-scrin-husk-name = 女妖战斗机
+actor-apache-husk-name = 鹰身女妖
 
 ## misc.yaml
-actor-mpspawn-name = (multiplayer starting point)
-actor-waypoint-name = (waypoint for scripted behavior)
-actor-camera-name = (reveals area to owner)
+actor-mpspawn-name = （多人游戏起始点）
+actor-waypoint-name = （脚本行为路径点）
+actor-camera-name = （向所有者显示区域）
 
 ## nod-infantry.yaml
 actor-e3 =
-    .name = Rocket Infantry
+    .name = 火箭兵
     .description =
-    Anti-tank infantry.
-       Strong vs Vehicles, Aircraft and Buildings
-       Weak vs Infantry
+        反坦克步兵。
+           对车辆、飞行器和建筑有效
+           弱点：步兵
 
-actor-cyborg =
-    .name = Cyborg Infantry
+actor-cyborg = 
+    .name = 生化步兵
     .description =
-    Cybernetic infantry unit.
-       Strong vs Infantry and Light armor
-       Weak vs Vehicles and Aircraft
+        半机械步兵单位。
+           对步兵和轻装甲有效
+           弱点：车辆和飞行器
 
-actor-cyc2 =
-    .name = Cyborg Commando
+actor-cyc2 = 
+    .name = 生化突击队员
     .description =
-    Elite cybernetic infantry unit.
-    Maximum of one can be built.
-       Strong vs Infantry, Vehicles and Buildings
-       Weak vs Aircraft
+        精锐半机械步兵单位。
+        最多可建造一个。
+           对步兵、车辆和建筑有效
+           弱点：飞行器
 
-actor-mhijack =
-    .name = Mutant Hijacker
+actor-mhijack = 
+    .name = 变异劫持者
     .description =
-    Hijacks enemy vehicles.
-       Unarmed
+        劫持敌方车辆。
+           无武装
 
 ## nod-structures.yaml
-actor-napowr =
-    .name = Nod Power Plant
-    .description =
-    Provides power to other structures.
+actor-napowr = 
+    .name = Nod发电厂
+    .description = 为其他建筑提供电力。
 
-actor-naapwr =
-    .name = Nod Advanced Power Plant
-    .description =
-    Provides twice as much power as a Power Plant.
+actor-naapwr = 
+    .name = Nod高级发电厂
+    .description = 提供两倍于发电厂的电力。
 
-actor-nahand =
-    .name = Hand of Nod
-    .description =
-    Produces infantry.
+actor-nahand = 
+    .name = Nod之手
+    .description = 生产步兵。
 
-actor-naweap =
-    .name = Nod War Factory
-    .description =
-    Produces vehicles.
+actor-naweap = 
+    .name = Nod战争工厂
+    .description = 生产车辆。
 
-actor-nahpad =
-    .name = Helipad
+actor-nahpad = 
+    .name = 直升机坪
     .description =
-    Produces, rearms and
-    repairs helicopters.
+        生产、补给和
+        维修直升机。
 
-actor-naradr =
-    .name = Nod Radar
+actor-naradr = 
+    .name = Nod雷达
     .description =
-    Provides an overview of the battlefield.
-    Detects cloaked units.
-    Requires power to operate.
+        提供战场概览。
+        探测隐形单位。
+        需要电力运作。
 
-actor-natech =
-    .name = Nod Tech Center
-    .description =
-    Provides access to advanced Nod technologies.
+actor-natech = 
+    .name = Nod科技中心
+    .description = 提供先进的Nod科技。
 
-actor-nastlh =
-    .name = Stealth Generator
+actor-nastlh = 
+    .name = 隐形发生器
     .description =
-    Generates a cloaking field
-    to hide your forces from the enemy.
+        生成隐形力场
+        隐藏你的部队不被敌人发现。
 
-actor-natmpl =
-    .name = Temple of Nod
-    .description =
-    Provides access to advanced Nod technologies.
-    .produceactorpower-name = Hunter Seeker
-    .produceactorpower-description = Releases a drone that seeks and destroys the enemy target.
+actor-natmpl = 
+    .name = Nod神殿
+    .description = 提供先进的Nod科技。
+    .produceactorpower-name = 猎杀无人机
+    .produceactorpower-description = 释放无人机追踪并摧毁敌方目标。
 
-actor-namisl =
-    .nukepower-name = Cluster Missile
+actor-namisl = 
+    .nukepower-name = 集束导弹
     .description =
-    Launches a devastating missile
-    at a target location.
-    Requires power to operate.
-    Maximum of one can be built.
-    .name = Nod Missile Silo
-    .nukepower-description = Launches an explosive cluster warhead
-    at a target location.
+        向目标位置发射毁灭性导弹。
+        需要电力运作。
+        最多可建造一个。
+    .name = Nod导弹发射井
+    .nukepower-description =
+        向目标位置发射
+        爆炸性集束弹头。
 
-actor-nawast =
-    .name = Waste Refinery
+actor-nawast = 
+    .name = 废料精炼厂
     .description =
-    Processes Veins
-    into usable resources.
-    Maximum of one can be built.
+        将矿脉加工
+        成可用资源。
+        最多可建造一个。
 
 ## nod-support.yaml
-actor-nawall =
-    .name = Concrete Wall
+actor-nawall = 
+    .name = 混凝土墙
     .description =
-    Stops infantry and blocks enemy fire.
-    Can NOT be crushed by tanks.
+        阻挡步兵和敌方火力。
+        不会被坦克碾压。
 
-actor-nagate-a-name = Nod Gate
-actor-nagate-b-name = Nod Gate
+actor-nagate-a-name = Nod大门
+actor-nagate-b-name = Nod大门
 
-actor-napost =
-    .name = Laser Fence
+actor-napost = 
+    .name = 激光栅栏
     .description =
-    Stops infantry and blocks enemy fire.
-    Can NOT be crushed by tanks.
+        阻挡步兵和敌方火力。
+        不会被坦克碾压。
 
-actor-nafnce-name = Laser Fence
+actor-nafnce-name = 激光栅栏
 
-actor-nalasr =
-    .name = Laser Turret
+actor-nalasr = 
+    .name = 激光炮塔
     .description =
-    Basic base defense.
-    Requires power to operate.
-       Strong vs Ground units
-       Weak vs Aircraft
+        基础基地防御。
+        需要电力运作。
+           对地面单位有效
+           弱点：飞行器
 
-actor-naobel =
-    .name = Obelisk of Light
+actor-naobel = 
+    .name = 光明石碑
     .description =
-    Advanced base defense.
-    Requires power to operate.
-       Strong vs Ground units
-       Weak vs Aircraft
+        高级基地防御。
+        需要电力运作。
+           对地面单位有效
+           弱点：飞行器
 
-actor-nasam =
-    .name = S.A.M. Site
+actor-nasam = 
+    .name = S.A.M.导弹基地
     .description =
-    Nod Anti-Air base defense.
-    Requires power to operate.
-       Strong vs Aircraft
-       Weak vs Ground units
+        Nod防空基地防御。
+        需要电力运作。
+           对飞行器有效
+           弱点：地面单位
 
 ## nod-vehicles.yaml
-actor-bggy =
-    .name = Attack Buggy
+actor-bggy = 
+    .name = 攻击越野车
     .description =
-    Fast scout and anti-infantry vehicle.
-       Strong vs Infantry and Light armor
-       Weak vs Vehicles and Aircraft
+        快速侦察和反步兵车辆。
+           对步兵和轻装甲有效
+           弱点：车辆和飞行器
 
-actor-bike =
-    .name = Attack Cycle
+actor-bike = 
+    .name = 攻击摩托
     .description =
-    Fast scout vehicle with rockets.
-       Strong vs Vehicles
-       Weak vs Infantry and Aircraft
+        配备火箭的快速侦察车辆。
+           对车辆有效
+           弱点：步兵和飞行器
 
-actor-ttnk =
-    .name = Tick Tank
-    .deployed-name = Tick Tank (deployed)
+actor-ttnk = 
+    .name = 猛犸坦克
+    .deployed-name = 猛犸坦克（已部署）
     .description =
-    Nod's main battle tank.
-    Can deploy to gain extra protection.
-       Strong vs Vehicles
-       Weak vs Infantry and Aircraft
+        Nod主战坦克。
+        可部署获得额外防护。
+           对车辆有效
+           弱点：步兵和飞行器
 
-actor-art2 =
-    .name = Artillery
-    .deployed-name = Artillery (deployed)
+actor-art2 = 
+    .name = 自行火炮
+    .deployed-name = 自行火炮（已部署）
     .description =
-    Mobile Artillery.
-    Needs to be deployed in order to shoot.
-       Strong vs Ground units
-       Weak vs Aircraft
+        移动火炮。
+        需要部署才能射击。
+           对地面单位有效
+           弱点：飞行器
 
-actor-repair =
-    .name = Mobile Repair Vehicle
+actor-repair = 
+    .name = 移动维修车
     .description =
-    Repairs nearby vehicles.
-       Unarmed
+        维修附近车辆。
+           无武装
 
-actor-weed =
-    .name = Weed Eater
+actor-weed = 
+    .name = 收割者
     .description =
-    Collects Tiberium veins for processing.
-       Unarmed
+        收集泰伯利亚矿脉进行加工。
+           无武装
 
-actor-sapc =
-    .name = Subterranean APC
+actor-sapc = 
+    .name = 地下运兵车
     .description =
-    Troop transport capable of moving
-    underground to avoid detection.
-       Unarmed
+        能够在地下移动
+        避免被探测的部队运输车。
+           无武装
 
-actor-subtank =
-    .name = Devil's Tongue
+actor-subtank = 
+    .name = 恶魔之舌
     .description =
-    Subterranean Flame Tank
-    with the ability to move underground.
-       Strong vs Infantry and Buildings
-       Weak vs Tanks and Aircraft
+        能够在地下移动的
+        地下火焰坦克。
+           对步兵和建筑有效
+           弱点：坦克和飞行器
 
-actor-stnk =
-    .name = Stealth Tank
+actor-stnk = 
+    .name = 隐形坦克
     .description =
-    Lightly armored tank equipped with a personal
-    stealth generator. Armed with missiles.
-    Visible to infantry at close range.
-       Strong vs Vehicles and Aircraft
-       Weak vs Infantry
+        配备个人隐形发生器的
+        轻装甲坦克。装备导弹。
+        近距离对步兵可见。
+           对车辆和飞行器有效
+           弱点：步兵
 
-actor-sgen =
-    .name = Mobile Stealth Generator
-    .deployed-name = Mobile Stealth Generator (deployed)
+actor-sgen = 
+    .name = 移动隐形发生器
+    .deployed-name = 移动隐形发生器（已部署）
     .description =
-    Able to cloak units once deployed.
-       Unarmed
+        部署后能够隐形单位。
+           无武装
 
 ## shared-infantry.yaml
-actor-e1 =
-    .name = Light Infantry
+actor-e1 = 
+    .name = 轻步兵
     .description =
-    General-purpose infantry.
-       Strong vs Infantry
-       Weak vs Vehicles and Aircraft
+        通用步兵。
+           对步兵有效
+           弱点：车辆和飞行器
 
 actor-engineer =
-    .name = Engineer
+    .name = 工程师
     .description =
-    Infiltrates and captures enemy structures.
-       Unarmed
+        渗透并占领敌方建筑。
+           无武装
 
 ## shared-structures.yaml
 actor-gacnst =
-    .name = Construction Yard
-    .description =
-    Builds base structures.
+    .name = 建造场
+    .description = 建造基地建筑。
 
 actor-proc =
-    .name = Tiberium Refinery
+    .name = 泰伯利亚精炼厂
     .description =
-    Processes raw Tiberium
-    into usable resources.
+        将原始泰伯利亚
+        加工成可用资源。
 
-actor-gasilo =
-    .name = Silo
-    .description =
-    Stores excess Tiberium.
+actor-gasilo = 
+    .name = 矿石仓库
+    .description = 储存多余的泰伯利亚。
 
-actor-anypower-name = Power Generation
-actor-barracks-name = Infantry Production
-actor-factory-name = Vehicle Production
-actor-radar-name = Radar
-actor-tech-name = Tech Center
+actor-anypower-name = 电力生产
+actor-barracks-name = 步兵生产
+actor-factory-name = 车辆生产
+actor-radar-name = 雷达
+actor-tech-name = 科技中心
 
 ## shared-support.yaml
-actor-napuls =
-    .name = EMP Cannon
+actor-napuls = 
+    .name = EMP炮
     .description =
-    Disables mechanical units in an area.
-    Requires power to operate.
+        瘫痪区域内机械单位。
+        需要电力运作。
     .attackorderpower-name = EMP
-    .attackorderpower-description = Fires a pulse blast that disables
-    all mechanical units in the area.
+    .attackorderpower-description =
+        发射脉冲冲击波，瘫痪
+        区域内所有机械单位。
 
 ## shared-vehicles.yaml
 actor-mcv =
-    .name = Mobile Construction Vehicle
+    .name = 机动工程车
     .description =
-    Deploys into a Construction Yard.
-      Unarmed
+        部署成建造场。
+           无武装
 
 actor-harv =
-    .name = Harvester
+    .name = 矿车
     .description =
-    Collects Tiberium for processing.
-       Unarmed
+        收集泰伯利亚进行加工。
+           无武装
 
-actor-lpst =
-    .name = Mobile Sensor Array
-    .deployed-name = Mobile Sensor Array (deployed)
+actor-lpst = 
+    .name = 移动传感器阵列
+    .deployed-name = 移动传感器阵列（已部署）
     .description =
-    Detects cloaked and subterranean
-    units when deployed.
-       Unarmed
+        部署时探测隐形和地下
+        单位。
+           无武装
 
 ## trees.yaml
-actor-bigblue-name = Large Blue Tiberium Crystal
-actor-veinhole-name = Veinhole
-meta-tibflora-name = Tiberian Flora
+actor-bigblue-name = 大型蓝色泰伯利亚晶体
+actor-veinhole-name = 矿脉孔
+meta-tibflora-name = 泰伯利亚植物
 
 ## Civilian Tech
-actor-cahosp =
-    .name = Civilian Hospital
-    .captured-desc = Provides infantry with self-healing.
-    .capturable-desc = Capture to enable self-healing for infantry.
+actor-cahosp = 
+    .name = 平民医院
+    .captured-desc = 为步兵提供自我治疗。
+    .capturable-desc = 占领以启用步兵自我治疗。
 
 ## ai.yaml
-bot-test-ai =
-    .name = Test AI
+bot-test-ai = 
+    .name = 测试AI
